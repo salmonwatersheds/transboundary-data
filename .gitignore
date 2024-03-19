@@ -35,6 +35,7 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+README.html
 
 # R Environment Variables
 .Renviron
@@ -47,3 +48,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# raw data that's too big to share
+data/1_raw-data/NuSEDS_data_20240227.xlsx

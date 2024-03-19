@@ -1,0 +1,186 @@
+SPECIES,Stock,Series,Year,Value,TableSource
+Coho,Taku River,Escapement,1987,55457,D.20
+Coho,Taku River,Escapement,1988,39450,D.20
+Coho,Taku River,Escapement,1989,56808,D.20
+Coho,Taku River,Escapement,1990,72196,D.20
+Coho,Taku River,Escapement,1991,127484,D.20
+Coho,Taku River,Escapement,1992,83729,D.20
+Coho,Taku River,Escapement,1993,119330,D.20
+Coho,Taku River,Escapement,1994,96343,D.20
+Coho,Taku River,Escapement,1995,55710,D.20
+Coho,Taku River,Escapement,1996,44635,D.20
+Coho,Taku River,Escapement,1997,32345,D.20
+Coho,Taku River,Escapement,1998,61382,D.20
+Coho,Taku River,Escapement,1999,60768,D.20
+Coho,Taku River,Escapement,2000,64699.97,D.20
+Coho,Taku River,Escapement,2001,104394,D.20
+Coho,Taku River,Escapement,2002,219360.04,D.20
+Coho,Taku River,Escapement,2003,183112,D.20
+Coho,Taku River,Escapement,2004,129327,D.20
+Coho,Taku River,Escapement,2005,135558,D.20
+Coho,Taku River,Escapement,2006,122384,D.20
+Coho,Taku River,Escapement,2007,74246,D.20
+Coho,Taku River,Escapement,2008,95225.6,D.20
+Coho,Taku River,Escapement,2009,103950,D.20
+Coho,Taku River,Escapement,2010,126830,D.20
+Coho,Taku River,Escapement,2011,70871,D.20
+Coho,Taku River,Escapement,2012,70774.97202,D.20
+Coho,Taku River,Escapement,2013,68117,D.20
+Coho,Taku River,Escapement,2014,124171,D.20
+Coho,Taku River,Escapement,2015,60178,D.20
+Coho,Taku River,Escapement,2016,87704,D.20
+Coho,Taku River,Escapement,2017,57868,D.20
+Coho,Taku River,Escapement,2018,51173,D.20
+Coho,Taku River,Escapement,2019,82759,D.20
+Coho,Taku River,Escapement,2020,52063,D.20
+Coho,Taku River,Escapement,2021,75526.00057,D.20
+Coho,Taku River,Terminal Harvest Rate,1992,0.489504009,D.20
+Coho,Taku River,Terminal Harvest Rate,1993,0.25263204,D.20
+Coho,Taku River,Terminal Harvest Rate,1994,0.546253909,D.20
+Coho,Taku River,Terminal Harvest Rate,1995,0.567092503,D.20
+Coho,Taku River,Terminal Harvest Rate,1996,0.330869787,D.20
+Coho,Taku River,Terminal Harvest Rate,1997,0.22086525,D.20
+Coho,Taku River,Terminal Harvest Rate,1998,0.265009459,D.20
+Coho,Taku River,Terminal Harvest Rate,1999,0.193544962,D.20
+Coho,Taku River,Terminal Harvest Rate,2000,0.207758412,D.20
+Coho,Taku River,Terminal Harvest Rate,2001,0.124446457,D.20
+Coho,Taku River,Terminal Harvest Rate,2002,0.144461756,D.20
+Coho,Taku River,Terminal Harvest Rate,2003,0.135832067,D.20
+Coho,Taku River,Terminal Harvest Rate,2004,0.215767484,D.20
+Coho,Taku River,Terminal Harvest Rate,2005,0.181091612,D.20
+Coho,Taku River,Terminal Harvest Rate,2006,0.281037228,D.20
+Coho,Taku River,Terminal Harvest Rate,2007,0.249555268,D.20
+Coho,Taku River,Terminal Harvest Rate,2008,0.229495277,D.20
+Coho,Taku River,Terminal Harvest Rate,2009,0.336469597,D.20
+Coho,Taku River,Terminal Harvest Rate,2010,0.354528429,D.20
+Coho,Taku River,Terminal Harvest Rate,2011,0.235826271,D.20
+Coho,Taku River,Terminal Harvest Rate,2012,0.265827195,D.20
+Coho,Taku River,Terminal Harvest Rate,2013,0.343716279,D.20
+Coho,Taku River,Terminal Harvest Rate,2014,0.277605185,D.20
+Coho,Taku River,Terminal Harvest Rate,2015,0.2470126,D.20
+Coho,Taku River,Terminal Harvest Rate,2016,0.211415521,D.20
+Coho,Taku River,Terminal Harvest Rate,2017,0.258634826,D.20
+Coho,Taku River,Terminal Harvest Rate,2018,0.401380359,D.20
+Coho,Taku River,Terminal Harvest Rate,2019,0.212643897,D.20
+Coho,Taku River,Terminal Harvest Rate,2020,0.159397294,D.20
+Coho,Taku River,Terminal Harvest Rate,2021,0.233420433,D.20
+Coho,Taku River,Total Run,1992,212798,D.20
+Coho,Taku River,Total Run,1993,249320,D.20
+Coho,Taku River,Total Run,1994,339736,D.20
+Coho,Taku River,Total Run,1995,181116,D.20
+Coho,Taku River,Total Run,1996,94283,D.20
+Coho,Taku River,Total Run,1997,50886,D.20
+Coho,Taku River,Total Run,1998,119925,D.20
+Coho,Taku River,Total Run,1999,117176,D.20
+Coho,Taku River,Total Run,2000,109148,D.20
+Coho,Taku River,Total Run,2001,162777,D.20
+Coho,Taku River,Total Run,2002,303275,D.20
+Coho,Taku River,Total Run,2003,265090,D.20
+Coho,Taku River,Total Run,2004,251537,D.20
+Coho,Taku River,Total Run,2005,222997,D.20
+Coho,Taku River,Total Run,2006,226694,D.20
+Coho,Taku River,Total Run,2007,133301,D.20
+Coho,Taku River,Total Run,2008,174070,D.20
+Coho,Taku River,Total Run,2009,224010,D.20
+Coho,Taku River,Total Run,2010,246822,D.20
+Coho,Taku River,Total Run,2011,129939,D.20
+Coho,Taku River,Total Run,2012,112947,D.20
+Coho,Taku River,Total Run,2013,142983.6577,D.20
+Coho,Taku River,Total Run,2014,189655.3116,D.20
+Coho,Taku River,Total Run,2015,105882.3569,D.20
+Coho,Taku River,Total Run,2016,124272,D.20
+Coho,Taku River,Total Run,2017,108261.635,D.20
+Coho,Taku River,Total Run,2018,83601.17291,D.20
+Coho,Taku River,Total Run,2019,117087.2329,D.20
+Coho,Taku River,Total Run,2020,73863,D.20
+Coho,Taku River,Total Run,2021,113264.1724,D.20
+Coho,Taku River,Terminal Run,1992,164015,D.20
+Coho,Taku River,Terminal Run,1993,159667,D.20
+Coho,Taku River,Terminal Run,1994,212328,D.20
+Coho,Taku River,Terminal Run,1995,128688,D.20
+Coho,Taku River,Terminal Run,1996,66706,D.20
+Coho,Taku River,Terminal Run,1997,41514,D.20
+Coho,Taku River,Terminal Run,1998,83514,D.20
+Coho,Taku River,Terminal Run,1999,75352,D.20
+Coho,Taku River,Terminal Run,2000,81666.97,D.20
+Coho,Taku River,Terminal Run,2001,119232,D.20
+Coho,Taku River,Terminal Run,2002,256400.04,D.20
+Coho,Taku River,Terminal Run,2003,211894,D.20
+Coho,Taku River,Terminal Run,2004,164909,D.20
+Coho,Taku River,Terminal Run,2005,165535,D.20
+Coho,Taku River,Terminal Run,2006,170223,D.20
+Coho,Taku River,Terminal Run,2007,98936,D.20
+Coho,Taku River,Terminal Run,2008,123588.6,D.20
+Coho,Taku River,Terminal Run,2009,156662,D.20
+Coho,Taku River,Terminal Run,2010,196492,D.20
+Coho,Taku River,Terminal Run,2011,92742,D.20
+Coho,Taku River,Terminal Run,2012,96400.97202,D.20
+Coho,Taku River,Terminal Run,2013,103792,D.20
+Coho,Taku River,Terminal Run,2014,171888,D.20
+Coho,Taku River,Terminal Run,2015,79919,D.20
+Coho,Taku River,Terminal Run,2016,111217,D.20
+Coho,Taku River,Terminal Run,2017,78056,D.20
+Coho,Taku River,Terminal Run,2018,85485,D.20
+Coho,Taku River,Terminal Run,2019,105110,D.20
+Coho,Taku River,Terminal Run,2020,61935.3229,D.20
+Coho,Taku River,Terminal Run,2021,98523.36776,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1992,0.033783495,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1993,0.029022904,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1994,0.06919954,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1995,0.106754321,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1996,0.075735316,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1997,0.064797418,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1998,0.060947865,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,1999,0.073986092,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2000,0.066697711,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2001,0.025991345,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2002,0.014828391,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2003,0.017192559,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2004,0.058723296,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2005,0.049892772,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2006,0.068551253,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2007,0.081598205,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2008,0.032146978,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2009,0.062338027,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2010,0.073326141,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2011,0.134545298,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2012,0.145973632,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2013,0.099959534,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2014,0.096388346,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2015,0.127416509,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2016,0.103581287,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2017,0.099953879,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2018,0.111189098,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2019,0.1165636,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2020,0.113602379,D.20
+Coho,Taku River,Cdn. Terminal Harvest Rate,2021,0.110430655,D.20
+Coho,Taku River,Above Border Run,1992,49928.35133,D.20
+Coho,Taku River,Above Border Run,1993,67447.57276,D.20
+Coho,Taku River,Above Border Run,1994,98643,D.20
+Coho,Taku River,Above Border Run,1995,61738,D.20
+Coho,Taku River,Above Border Run,1996,44171.743,D.20
+Coho,Taku River,Above Border Run,1997,35035,D.20
+Coho,Taku River,Above Border Run,1998,49290,D.20
+Coho,Taku River,Above Border Run,1999,59052,D.20
+Coho,Taku River,Above Border Run,2000,70146.97,D.20
+Coho,Taku River,Above Border Run,2001,107493,D.20
+Coho,Taku River,Above Border Run,2002,223162.04,D.20
+Coho,Taku River,Above Border Run,2003,186755,D.20
+Coho,Taku River,Above Border Run,2004,139011,D.20
+Coho,Taku River,Above Border Run,2005,143817,D.20
+Coho,Taku River,Above Border Run,2006,134053,D.20
+Coho,Taku River,Above Border Run,2007,82319,D.20
+Coho,Taku River,Above Border Run,2008,99198.6,D.20
+Coho,Taku River,Above Border Run,2009,113716,D.20
+Coho,Taku River,Above Border Run,2010,141238,D.20
+Coho,Taku River,Above Border Run,2011,83349,D.20
+Coho,Taku River,Above Border Run,2012,61797,D.20
+Coho,Taku River,Above Border Run,2013,55161,D.20
+Coho,Taku River,Above Border Run,2014,140739,D.20
+Coho,Taku River,Above Border Run,2015,70361,D.20
+Coho,Taku River,Above Border Run,2016,99224,D.20
+Coho,Taku River,Above Border Run,2017,65670,D.20
+Coho,Taku River,Above Border Run,2018,60678,D.20
+Coho,Taku River,Above Border Run,2019,95011,D.20
+Coho,Taku River,Above Border Run,2020,53707,D.20
+Coho,Taku River,Above Border Run,2021,85800,D.20
