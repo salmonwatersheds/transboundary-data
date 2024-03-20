@@ -7,7 +7,7 @@ library(sjmisc) # is_even and is_odd
 
 # Sum of spawner surveys (ss) by CU
 ss.list <- sort(list.files( # Get list of all files
-	path = "DATA_PROCESSING/DATA/2_ExtractedData/", 
+	path = "output", 
 	pattern = "dataset_1part2.", 
 	full.names = TRUE)) 
 
@@ -34,17 +34,17 @@ osa <- tbr.ss %>%
 # Estimated spawner abundance (esa)
 ###############################################################################
 
-cu.info.df <- read_csv("DATA_PROCESSING/DATA/0_LookupFiles/TBR_PSF_CU_Abundance_LookupFile.csv")
+cu.info.df <- read_csv("data/0_lookup-files/TBR_PSF_CU_Abundance_LookupFile.csv")
 
 # Loop through each CU and extract relevant data
 for(i in 1:length(cu.info.df$cuid)){
 	
 	if( cu.info.df$TTC_Species[i] == "Chinook"){
-		ttc.df <- read_csv("DATA_PROCESSING/DATA/2_ExtractedData/TTC_ManualExtract_Alsek_ChinookE7full.csv") %>%
+		ttc.df <- read_csv("data/1_raw-data/TTC_ManualExtract_Alsek_ChinookE7full.csv") %>%
 			filter(!is.na(Value))
 		
 	} else {
-			ttc.df <- read_csv(paste0("DATA_PROCESSING/DATA/2_ExtractedData/TTC_ManualExtract_", cu.info.df$TTC_Stock[i], "_", cu.info.df$TTC_Species[i], ".csv")) %>%
+			ttc.df <- read_csv(paste0("data/1_raw-data/TTC_ManualExtract_", cu.info.df$TTC_Stock[i], "_", cu.info.df$TTC_Species[i], ".csv")) %>%
 		filter(!is.na(Value))
 		}
 	
@@ -72,12 +72,8 @@ esa
 ###############################################################################
 # Merge observed and estimated
 ###############################################################################
-# source("../../../Population\ Methods and Analysis/population-indicators/code/functions_general.R")
-# 
-# cu_list <- retrieve_data_from_PSF_databse_fun(name_dataset = "appdata.vwdl_conservationunits_decoder") %>%
-# 	filter(region == "Transboundary")
 
-cu_list <- read_csv("../../../Population\ Methods and Analysis/population-indicators/data-input/conservationunits_decoder.csv")
+cu_list <- read_csv("data/1_raw-data/conservationunits_decoder.csv")
 
 sa <- full_join(osa, esa, by = c("cuid", "year")) %>%
 	left_join(cu_list %>%
@@ -86,5 +82,5 @@ sa <- full_join(osa, esa, by = c("cuid", "year")) %>%
 	arrange(species_abbr, cu_name_pse, year)
 
 
-write_csv(sa, paste0("DATA_PROCESSING/DATA/2_ExtractedData/dataset_1part1.", Sys.Date(), ".csv"))
+write_csv(sa, paste0("output/dataset_1part1.", Sys.Date(), ".csv"))
 		
