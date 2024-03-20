@@ -1,10 +1,16 @@
+###############################################################################
+# This script implements the following steps
+# - Read in TTC_ManualExtract... files
+# - Merge relevant surveys into single TTC_MERGED.csv output
+###############################################################################
+
 library(tidyverse)
 
 # get list of manual TTC extracts
 
 
 
-ttc.src.list <- list.files(path = "DATA_PROCESSING/DATA/2_ExtractedData/", pattern = "TTC_ManualExtract_",full.names = TRUE)
+ttc.src.list <- list.files(path = "data/1_raw-data/", pattern = "TTC_ManualExtract_",full.names = TRUE)
 
 ttc.src.list
 
@@ -30,7 +36,7 @@ head(ttc.merged.df)
 dim(ttc.merged.df)
 
 
-write_csv(ttc.merged.df,"DATA_PROCESSING/DATA/2_ExtractedData/TTC_MERGED.csv")
+write_csv(ttc.merged.df,"data/2_clean-data/TTC_MERGED.csv")
 
 
 

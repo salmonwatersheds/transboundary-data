@@ -1,0 +1,40 @@
+River,FAZ,FAZ_List,SPECIES,CU_NAME,CU_ACRO,FAZ_ACRO,MAZ_ACRO,JAZ_ACRO,CU_TYPE,Species_CU_INDEX,CU_INDEX,EPAD_CU_INDEX,CUID_PSF,PSE_Name,MANAGEMENT_UNIT
+Stikine,Lower Stikine,Lower Stikine,CK,STIKINE-EARLY TIMING,LSTK-early,LStk,TBFj,LStk+TBFj,Current,CK-60,60,CK-60,1010,Stikine-Early Timing,Stikine Chinook Salmon
+Stikine,Lower Stikine,Lower Stikine,CK,STIKINE-LATE TIMING,LSTK-late,LStk,TBFj,LStk+TBFj,Current,CK-61,61,CK-61,1011,Stikine-Late Timing,Stikine Chinook Salmon
+Taku,Taku,Taku,CK,TAKU-EARLY TIMING,TAKU-early,Taku,TBFj,Taku+TBFj,Current,CK-63,63,CK-63,1006,Taku-Early Timing,Taku Chinook Salmon
+Taku,Taku,Taku,CK,TAKU-MID TIMING,TAKU-mid,Taku,TBFj,Taku+TBFj,Current,CK-64,64,CK-64,1007,Taku-Mid Timing,Taku Chinook Salmon
+Taku,Taku,Taku,CK,TAKU-LATE TIMING,TAKU-late,Taku,TBFj,Taku+TBFj,Current,CK-65,65,CK-65,1008,Taku-Late Timing,Taku Chinook Salmon
+Alsek,Alsek,Alsek,CK,ALSEK,Alsek,Alsek,AKCst,Alsek+AKCst,Current,CK-67,67,CK-67,1004,Alsek,Alsek Chinook Salmon
+Stikine,Lower Stikine,Lower Stikine,CO,LOWER STIKINE,LSTK,LStk,TBFj,LStk+TBFj,Current,CO-39,39,CO-39,1017,Lower Stikine,Stikine Coho Salmon
+Taku,Taku,Taku,CO,TAKU-LATE TIMING,Taku-late,Taku,TBFj,Taku+TBFj,Current,CO-41,41,CO-41,1015,Taku-Late Timing,Taku Coho Salmon
+Alsek,Alsek,Alsek,CO,ALSEK RIVER,ALSEK,Alsek,AKCst,Alsek+AKCst,Current,CO-45,45,CO-45,1013,Alsek River,Alsek Coho Salmon
+Multiple,Multiple,LIST,PKE,TRANSBOUNDARY FJORDS,TBFj,Multiple,Multiple,Multiple,Current,PKE-13,13,PKE-13,1019,Transboundary Fjords,NA
+Multiple,Multiple,LIST,PKO,TRANSBOUNDARY FJORDS,TBFj,Multiple,Multiple,Multiple,Current,PKO-19,19,PKO-19,1020,Transboundary Fjords,NA
+Stikine,Lower Stikine,Lower Stikine,SEL,CHRISTINA,Christina,LStk,TBFj,LStk+TBFj,Current,SEL-26-01,L-26-01,SEL-26-01,1025,Christina,Stikine Sockeye Salmon
+Stikine,Lower Stikine,Lower Stikine,SEL,TAHLTAN,Tahltan,LStk,TBFj,LStk+TBFj,Current,SEL-26-02,L-26-02,SEL-26-02,1026,Tahltan,Stikine Sockeye Salmon
+Stikine,Lower Stikine,Lower Stikine,SEL,CHUTINE,Chutine,LStk,TBFj,LStk+TBFj,Current,SEL-26-03,L-26-03,SEL-26-03,1036,Chutine,Stikine Sockeye Salmon
+Taku,Taku,Taku,SEL,KUTHAI,Kuthai,Taku,TBFj,Taku+TBFj,Current,SEL-28-01,L-28-01,SEL-28-01,1027,Kuthai,Taku Sockeye Salmon
+Taku,Taku,Taku,SEL,LITTLE TRAPPER,Little Trapper,Taku,TBFj,Taku+TBFj,Current,SEL-28-02,L-28-02,SEL-28-02,1028,Little Trapper,Taku Sockeye Salmon
+Taku,Taku,Taku,SEL,TATSAMENIE,Tatsamenie,Taku,TBFj,Taku+TBFj,Current,SEL-28-03,L-28-03,SEL-28-03,1029,Tatsamenie,Taku Sockeye Salmon
+Taku,Taku,Taku,SEL,KING SALMON LAKE,KingSlmLk,Taku,TBFj,Taku+TBFj,Current,SEL-28-05,L-28-05,SEL-28-05,1033,King Salmon Lake,Taku Sockeye Salmon
+Alsek,Alsek,Alsek,SEL,KLUKSHU,Klukshu,Alsek,AKCst,Alsek+AKCst,Current,SEL-30-02,L-30-02,SEL-30-02,1038,Klukshu,Alsek Sockeye Salmon
+Alsek,Alsek,Alsek,SEL,NESKATAHIN,Neskatahin,Alsek,AKCst,Alsek+AKCst,Current,SEL-30-03,L-30-03,SEL-30-03,1039,Nesketaheen,Alsek Sockeye Salmon
+Multiple,Multiple,LIST,SER,NORTHERN TRANSBOUNDARY FJORDS,TBFj,Multiple,Multiple,Multiple,Current,SER-22,R-22,SER-22,1023,Northern Transboundary Fjords,NA
+Alsek,Alsek,Alsek,SER,ALSEK RIVER,ALSEK,Alsek,AKCst,Alsek+AKCst,Current,SER-24,R-24,SER-24,1021,Alsek River,NA
+Unuk,Unuk,Unuk,CK,UNUK RIVER,UNUK,Unuk,TBFj,UNUK+TBFj,Current,CK-59,59,CK-59,1012,Unuk River,NA
+Whiting,Whiting,Whiting,CK,WHITING RIVER,Whiting,Whiting,TBFj,Whiting+TBFj,Current,CK-62,62,CK-62,1009,Whiting River,NA
+Lynn,Lynn,Lynn,CK,LYNN CANAL,LYNN,Lynn,TBFj,Lynn+TBFj,Current,CK-66,66,CK-66,1005,Lynn Canal,NA
+Unuk,Unuk,Unuk,CM,UNUK RIVER,UNUK,Unuk,TBFj,UNUK+TBFj,Current,CM-33,33,CM-33,1003,Unuk River,NA
+Stikine,Lower Stikine,Lower Stikine,CM,LOWER STIKINE,LSTK,LStk,TBFj,LStk+TBFj,Current,CM-34,34,CM-34,1032,Lower Stikine,NA
+Whiting,Whiting,Whiting,CM,WHITING RIVER,WHTNG,Whiting,TBFj,Whiting+TBFj,Current,CM-35,35,CM-35,1002,Whiting River,NA
+Taku,Taku,Taku,CM,TAKU,TAKU,Taku,TBFj,Taku+TBFj,Current,CM-36,36,CM-36,1001,Taku,Transboundary Chum Salmon
+Lynn,Lynn,Lynn,CM,LYNN CANAL,LYNN,Lynn,TBFj,Lynn+TBFj,Current,CM-37,37,CM-37,1000,Lynn Canal,NA
+Unuk,Unuk,Unuk,CO,UNUK RIVER,UNUK,Unuk,TBFj,UNUK+TBFj,Current,CO-38,38,CO-38,1018,Unuk River,NA
+Whiting,Whiting,Whiting,CO,WHITING RIVER,Whiting,Whiting,TBFj,Whiting+TBFj,Current,CO-40,40,CO-40,1016,Whiting River,NA
+Lynn,Lynn,Lynn,CO,LYNN CANAL,LYNN,Lynn,TBFj,Lynn+TBFj,Current,CO-42,42,CO-42,1014,Lynn Canal,NA
+Taku,Taku,Taku,CO,TAKU-EARLY TIMING,Taku-early,Taku,TBFj,Taku+TBFj,Current,CO-991,991,CO-991,1034,Taku-Early Timing,Taku Coho Salmon
+Taku,Taku,Taku,CO,TAKU-MID TIMING,Taku-mid,Taku,TBFj,Taku+TBFj,Current,CO-992,992,CO-992,1035,Taku-Mid Timing,Taku Coho Salmon
+Unuk,Unuk,Unuk,SEL,BORDER,Border,Unuk,TBFj,UNUK+TBFj,Current,SEL-25-01,L-25-01,SEL-25-01,1024,Border,NA
+Alsek,Alsek,Alsek,SEL,BLANCHARD,Blanchard,Alsek,AKCst,Alsek+AKCst,Current,SEL-30-01,L-30-01,SEL-30-01,1031,Blanchard,Alsek Sockeye Salmon
+Whiting,Whiting,Whiting,SEL,WHITING,Whiting,Whiting,TBFj,Whiting+TBFj,Current,SEL-999,999,SEL-999,1037,Whiting,NA
+Lynn,Lynn,Lynn,SER,CHILKAT RIVER,LYNN,Lynn,TBFj,Lynn+TBFj,Current,SER-23,R-23,SER-23,1022,Chilkat River,NA

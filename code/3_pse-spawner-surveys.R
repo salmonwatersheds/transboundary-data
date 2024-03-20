@@ -1,18 +1,23 @@
+###############################################################################
+# This script reads in NuSEDS, TTC, Nahlin River Sonar, and Stonehouse data
+# to compile spawner surveys for all species and CUs in the Transboundary
+###############################################################################
+
 library(tidyverse)
 library(sjmisc) # is_even and is_odd
 
 # read in cleaned data
-site.info.df <- read_csv("DATA_PROCESSING/DATA/0_LookupFiles/TBR_PSF_CU_Site_LookupFile_revised.csv")
-nuseds.src <- read_csv("DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_Clean.csv") %>%
+site.info.df <- read_csv("data/0_lookup-files/TBR_PSF_CU_Site_LookupFile.csv")
+nuseds.src <- read_csv("data/2_clean-data/TBR_nuSEDS_Clean.csv") %>%
                 mutate(POP_ID = as.numeric(POP_ID))
-ttc.src <- read_csv("DATA_PROCESSING/DATA/2_ExtractedData/TTC_MERGED.csv")
+ttc.src <- read_csv("data/2_clean-data/TTC_MERGED.csv")
 
 # Bring in two additional sources of data : Stonehouse and Nahlin river Sonar
 # Arrange by year
-pahlke.src <- read_csv("DATA_PROCESSING/DATA/1_RawData/Pahlke_ChinookStonehouseChilkat.csv") %>%
+pahlke.src <- read_csv("data/1_raw-data/Pahlke_ChinookStonehouseChilkat.csv") %>%
 	arrange(Year)
 
-nahlin.src <- read_csv("DATA_PROCESSING/DATA/1_RawData/nahlin_river_sonar.csv") %>%
+nahlin.src <- read_csv("data/1_raw-data/nahlin_river_sonar.csv") %>%
 	rename(Year = "year") %>%
 	arrange(Year)
 

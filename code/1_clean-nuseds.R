@@ -1,3 +1,4 @@
+###############################################################################
 # This script implements the following steps
 # - extract nuSEDS from *.xlsx to *.csv
 # - filter out the transboundary CU data
@@ -6,6 +7,7 @@
 # - recode the estimate quality to H/M/L/UNK
 # - filter out records without estimates
 # - summarize the records by FAZ and by CU
+###############################################################################
 
 library(tidyverse)
 library(readxl)
@@ -31,7 +33,7 @@ head(sort(unique(nuseds.raw$WATERBODY)))
 
 
 
-cu.info.df <- read_csv("DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_CU_Info.csv")
+cu.info.df <- read_csv("data/2_clean-data/TBR_nuSEDS_CU_Info.csv")
 
 
 #################################################################
@@ -198,7 +200,7 @@ nuseds.clean <- nuseds.tmp
 
 
 
-write_csv(nuseds.clean,"DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_Clean.csv")
+write_csv(nuseds.clean,"data/2_clean-data/TBR_nuSEDS_Clean.csv")
 
 
 
@@ -235,7 +237,7 @@ nuseds.clean %>% group_by(Species_CU_INDEX) %>%
 ) %>% arrange(River,FAZ)  %>% unique()
 
 
-write_csv(nuseds.summary.by.cu,"DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_Summary_byCU.csv")
+write_csv(nuseds.summary.by.cu,"data/2_clean-data/TBR_nuSEDS_Summary_byCU.csv")
 
 
 table(nuseds.summary.by.cu$FAZ)
@@ -261,12 +263,12 @@ tmp.faz.summary
 sum(tmp.faz.summary$CU)
 sum(tmp.faz.summary$SitesWithData)
 
-nuseds.summary.by.faz <- read_csv("DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_CUNumberbyFAZ.csv") %>%
+nuseds.summary.by.faz <- read_csv("data/2_clean-data/TBR_nuSEDS_CUNumberbyFAZ.csv") %>%
                           left_join(tmp.faz.summary %>% select(River, FAZ,SitesWithData,NumRecords),by=c("River","FAZ"))
 nuseds.summary.by.faz
 
 
-write_csv(nuseds.summary.by.faz,"DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_Summary_byFAZ.csv")
+write_csv(nuseds.summary.by.faz,"data/2_clean-data/TBR_nuSEDS_Summary_byFAZ.csv")
 
 
 
@@ -291,7 +293,7 @@ nuseds.summary.by.site <-
 
 nuseds.summary.by.site
 
-write_csv(nuseds.summary.by.site,"DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_Summary_bySite.csv")
+write_csv(nuseds.summary.by.site,"data/2_clean-data/TBR_nuSEDS_Summary_bySite.csv")
 
 
 
@@ -338,17 +340,5 @@ nuseds.sum.cu.yr <- nuseds.summary.by.cu <- cu.info.df %>% select(River,FAZ,SPEC
 
 head(nuseds.sum.cu.yr)
 
-write_csv(nuseds.sum.cu.yr,"DATA_PROCESSING/DATA/2_ExtractedData/TBR_nuSEDS_AnnualSumOfMaxEst.csv")
-
-
-
-
-
-
-
-
-
-
-
-
+write_csv(nuseds.sum.cu.yr,"data/2_clean-data/TBR_nuSEDS_AnnualSumOfMaxEst.csv")
 
