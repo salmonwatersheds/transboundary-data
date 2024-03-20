@@ -1,3 +1,9 @@
+###############################################################################
+# This script reads in spawner surveys and TTC data to calculate observed
+# and estimated spawner abundance by Conservation Unit for the Pacific Salmon
+# Explorer
+###############################################################################
+
 library(tidyverse)
 library(sjmisc) # is_even and is_odd
 
@@ -8,7 +14,7 @@ library(sjmisc) # is_even and is_odd
 # Sum of spawner surveys (ss) by CU
 ss.list <- sort(list.files( # Get list of all files
 	path = "output", 
-	pattern = "dataset_1part2.", 
+	pattern = "spawner_surveys_dataset_1part2_", 
 	full.names = TRUE)) 
 
 tbr.ss <- read_csv(tail(ss.list, 1)) # Source most recent file
@@ -82,5 +88,5 @@ sa <- full_join(osa, esa, by = c("cuid", "year")) %>%
 	arrange(species_abbr, cu_name_pse, year)
 
 
-write_csv(sa, paste0("output/dataset_1part1.", Sys.Date(), ".csv"))
+write_csv(sa, paste0("output/spawner_abundance_dataset_1part1_", Sys.Date(), ".csv"))
 		

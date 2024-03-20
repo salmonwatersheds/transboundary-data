@@ -222,5 +222,5 @@ pse.data %>% filter(stream_observed_count == 0) %>%
 # Decision: Do NOT set these aerial surveys to zero, because they are targetting the CU of interest at the relevant time and are thus meaningful observations.
 
 # Write csv
-write_csv(pse.data, paste0("output/dataset_1part2.", Sys.Date(),  ".csv"))
+write_csv(pse.data, paste0("output/spawner_surveys_dataset_1part2_", Sys.Date(),  ".csv"))
 
