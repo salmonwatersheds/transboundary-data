@@ -131,7 +131,7 @@ combined.data.df$Spn_Combined[ind.TakuSER] <- combined.data.df$Spn_Combined[ind.
 # Write to CSV
 ###############################################################################
 
-write_csv(combined.data.df,"DATA_PROCESSING/DATA/2_ExtractedData/1_Combined_Data_Long_WithDetails.csv")
+write_csv(combined.data.df,"data/2_clean-data/1_Combined_Data_Long_WithDetails.csv")
 
 names(combined.data.df)
 
@@ -142,7 +142,7 @@ record.summary.byyear.byspecies <- combined.data.df %>% group_by(Year,SPECIES_QU
     					Num_Combined = sum(!is.na(Spn_Combined))) %>%
     arrange(SPECIES_QUALIFIED)
 
-write_csv(record.summary.byyear.byspecies,"DATA_PROCESSING/DATA/2_ExtractedData/3_RecordSummary_ByYear_BySpecies.csv")
+write_csv(record.summary.byyear.byspecies,"data/2_clean-data/3_RecordSummary_ByYear_BySpecies.csv")
 
 
 # create "wide" file for explorer input
@@ -158,7 +158,7 @@ wide.data.df <- left_join(site.info.df,wide.data.df, by="streamid")
 
 head(wide.data.df)
 
-write_csv(wide.data.df,"DATA_PROCESSING/DATA/2_ExtractedData/2_Combined_Data_Wide.csv")
+write_csv(wide.data.df,"data/2_clean-data/2_Combined_Data_Wide.csv")
 
 ###############################################################################
 # Output data for PSE spawner surveys
@@ -222,5 +222,5 @@ pse.data %>% filter(stream_observed_count == 0) %>%
 # Decision: Do NOT set these aerial surveys to zero, because they are targetting the CU of interest at the relevant time and are thus meaningful observations.
 
 # Write csv
-write_csv(pse.data, paste0("DATA_PROCESSING/DATA/2_ExtractedData/dataset_1part2.", strftime(Sys.Date(), format = "%b%d%Y"),  ".csv"))
+write_csv(pse.data, paste0("output/dataset_1part2.", Sys.Date(),  ".csv"))
 
