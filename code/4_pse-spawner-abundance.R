@@ -81,12 +81,14 @@ esa
 
 cu_list <- read_csv("data/1_raw-data/conservationunits_decoder.csv")
 
+# Note: We are not including estimated_spawners_plus (enhanced + wild) as a 
+# separate series because in all cases this is equal to observed spawner abundance.
 sa <- full_join(osa, esa, by = c("cuid", "year")) %>%
 	left_join(cu_list %>%
-						 select(species_abbr, cu_name_pse, cuid)) %>%
-	select(species_abbr, cuid, cu_name_pse, year, observed_spawners, estimated_spawners, estimated_spawners_plus) %>%
-	arrange(species_abbr, cu_name_pse, year)
-
+						 select(species_abbr, cu_name_pse, cuid))  %>%
+	mutate(region = "Transboundary") %>%
+	select(region, species_abbr, cuid, cu_name_pse, year, observed_spawners, estimated_spawners) %>%
+	arrange(region, species_abbr, cu_name_pse, year) 
 
 write_csv(sa, paste0("output/spawner_abundance_dataset_1part1_", Sys.Date(), ".csv"))
 		
