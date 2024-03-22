@@ -199,8 +199,8 @@ pse.data <- data.frame(
 	longitude = combined.data.df$longitude,
 	year = combined.data.df$Year,
 	stream_observed_count = combined.data.df$Spn_Combined, # !! Draws on Spn_Combined field
-	stream_survey_method = ifelse(combined.data.df$PSE_source == "NuSEDS", combined.data.df$ESTIMATE_METHOD, combined.data.df$TTC_METHOD),
-	stream_survey_quality = combined.data.df$DQ
+	survey_method = ifelse(combined.data.df$PSE_source == "NuSEDS", combined.data.df$ESTIMATE_METHOD, combined.data.df$TTC_METHOD),
+	survey_qual = combined.data.df$DQ
 )
 
 # Remove years with no data
