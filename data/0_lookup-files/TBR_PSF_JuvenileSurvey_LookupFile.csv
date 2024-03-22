@@ -1,0 +1,5 @@
+﻿region,cuid,cu_name_pse,species_name,locationid,locationname,pointid,latitude,longitude,enumeration_method,TTC_Species,TTC_Stock,TTC_RECORD_MATCH,TTC_MATCH_COMMENT,Other Source
+Transboundary,1026,Tahltan,Lake sockeye,11305,Tahltan Lake (natural),2564,57.976099,-131.580988,Smolt Weir,Sockeye,Stikine,Tahltan Lake Smolt - Natural,App B.33,
+Transboundary,1026,Tahltan,Lake sockeye,11859,Tahltan Lake (hatchery),2563,57.975924,-131.580276,Smolt Weir,Sockeye,Stikine,Tahltan Lake Smolt - Hatchery,App B.33,
+Transboundary,1029,Tatsamenie,Lake sockeye,11857,Mark Recapture - Natural Origin,2546,58.408934,-132.362915,Mark Recapture,,,,,Brian Mercer (Metla)
+Transboundary,1029,Tatsamenie,Lake sockeye,11858,Mark Recapture - Hatchery Origin,2545,58.408977,-132.362322,Mark Recapture,,,,,Brian Mercer (Metla)
