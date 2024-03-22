@@ -1,4 +1,4 @@
-region,species_name,cuid,cu_name_pse,streamid,stream_name_pse,indicator,latitude,longitude,year,stream_observed_count,stream_survey_method,stream_survey_quality
+region,species_name,cuid,cu_name_pse,streamid,stream_name_pse,indicator,latitude,longitude,year,stream_observed_count,survey_method,survey_qual
 Transboundary,Chinook,1004,Alsek,10128,Alsek River,N,59.4439652,-137.9907846,1998,6833,Mark-recapture,Medium-High
 Transboundary,Chinook,1004,Alsek,10128,Alsek River,N,59.4439652,-137.9907846,1999,14615,Mark-recapture,Medium-High
 Transboundary,Chinook,1004,Alsek,10128,Alsek River,N,59.4439652,-137.9907846,2000,7905,Mark-recapture,Medium-High
