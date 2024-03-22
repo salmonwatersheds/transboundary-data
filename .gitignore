@@ -51,3 +51,6 @@ rsconnect/
 
 # raw data that's too big to share
 data/1_raw-data/NuSEDS_data_20240227.xlsx
+
+# Ignore archived output datasets
+output/archive
