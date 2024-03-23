@@ -14,7 +14,7 @@ library(tidyverse)
 # 
 # dat88_old <- retrieve_data_from_PSF_databse_fun(name_dataset = "appdata.vwdl_dataset88_output") %>%
 # 	filter(region == "Transboundary")
-	
+# 	
 #------------------------------------------------------------------------------
 # Grab TTC juvenile survey data (Tahltan SEL)
 #------------------------------------------------------------------------------
@@ -50,6 +50,10 @@ dat88 <- rbind(
 		select(names(dat88_new)) %>% 
 		filter(locationid %in% dat88_new$locationid == FALSE)
 )
+
+# Rename Tatsamenie sites
+dat88$locationname[dat88$locationname == "Mark Recapture - Natural Origin"] <- "Tatsamenie (natural)"
+dat88$locationname[dat88$locationname == "Mark Recapture - Hatchery Origin"] <- "Tatsamenie (hatchery)"
 
 # Write to csv
 write_csv(dat88, file = paste0("output/juvenile_surveys_dataset88_", Sys.Date(), ".csv"))
