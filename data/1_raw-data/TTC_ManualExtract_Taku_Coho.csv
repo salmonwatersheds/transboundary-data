@@ -124,36 +124,41 @@ Coho,Taku River,Terminal Run,2018,85485,D.20
 Coho,Taku River,Terminal Run,2019,105110,D.20
 Coho,Taku River,Terminal Run,2020,61935.3229,D.20
 Coho,Taku River,Terminal Run,2021,98523.36776,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1992,0.033783495,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1993,0.029022904,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1994,0.06919954,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1995,0.106754321,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1996,0.075735316,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1997,0.064797418,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1998,0.060947865,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,1999,0.073986092,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2000,0.066697711,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2001,0.025991345,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2002,0.014828391,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2003,0.017192559,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2004,0.058723296,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2005,0.049892772,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2006,0.068551253,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2007,0.081598205,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2008,0.032146978,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2009,0.062338027,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2010,0.073326141,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2011,0.134545298,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2012,0.145973632,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2013,0.099959534,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2014,0.096388346,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2015,0.127416509,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2016,0.103581287,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2017,0.099953879,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2018,0.111189098,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2019,0.1165636,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2020,0.113602379,D.20
-Coho,Taku River,Cdn. Terminal Harvest Rate,2021,0.110430655,D.20
+Coho,Taku River,Canadian Harvest,1987,6519,D.20
+Coho,Taku River,Canadian Harvest,1988,3643,D.20
+Coho,Taku River,Canadian Harvest,1989,4033,D.20
+Coho,Taku River,Canadian Harvest,1990,3685,D.20
+Coho,Taku River,Canadian Harvest,1991,5439,D.20
+Coho,Taku River,Canadian Harvest,1992,5541,D.20
+Coho,Taku River,Canadian Harvest,1993,4634,D.20
+Coho,Taku River,Canadian Harvest,1994,14693,D.20
+Coho,Taku River,Canadian Harvest,1995,13738,D.20
+Coho,Taku River,Canadian Harvest,1996,5052,D.20
+Coho,Taku River,Canadian Harvest,1997,2690,D.20
+Coho,Taku River,Canadian Harvest,1998,5090,D.20
+Coho,Taku River,Canadian Harvest,1999,5575,D.20
+Coho,Taku River,Canadian Harvest,2000,5447,D.20
+Coho,Taku River,Canadian Harvest,2001,3099,D.20
+Coho,Taku River,Canadian Harvest,2002,3802,D.20
+Coho,Taku River,Canadian Harvest,2003,3643,D.20
+Coho,Taku River,Canadian Harvest,2004,9684,D.20
+Coho,Taku River,Canadian Harvest,2005,8259,D.20
+Coho,Taku River,Canadian Harvest,2006,11669,D.20
+Coho,Taku River,Canadian Harvest,2007,8073,D.20
+Coho,Taku River,Canadian Harvest,2008,3973,D.20
+Coho,Taku River,Canadian Harvest,2009,9766,D.20
+Coho,Taku River,Canadian Harvest,2010,14408,D.20
+Coho,Taku River,Canadian Harvest,2011,12478,D.20
+Coho,Taku River,Canadian Harvest,2012,14072,D.20
+Coho,Taku River,Canadian Harvest,2013,10375,D.20
+Coho,Taku River,Canadian Harvest,2014,16568,D.20
+Coho,Taku River,Canadian Harvest,2015,10183,D.20
+Coho,Taku River,Canadian Harvest,2016,11520,D.20
+Coho,Taku River,Canadian Harvest,2017,7802,D.20
+Coho,Taku River,Canadian Harvest,2018,9505,D.20
+Coho,Taku River,Canadian Harvest,2019,12252,D.20
+Coho,Taku River,Canadian Harvest,2020,7036,D.20
+Coho,Taku River,Canadian Harvest,2021,10880,D.20
 Coho,Taku River,Above Border Run,1992,49928.35133,D.20
 Coho,Taku River,Above Border Run,1993,67447.57276,D.20
 Coho,Taku River,Above Border Run,1994,98643,D.20
@@ -184,3 +189,38 @@ Coho,Taku River,Above Border Run,2018,60678,D.20
 Coho,Taku River,Above Border Run,2019,95011,D.20
 Coho,Taku River,Above Border Run,2020,53707,D.20
 Coho,Taku River,Above Border Run,2021,85800,D.20
+Coho,Taku River,Terminal US Harvest,1987,NA,D.20
+Coho,Taku River,Terminal US Harvest,1988,NA,D.20
+Coho,Taku River,Terminal US Harvest,1989,NA,D.20
+Coho,Taku River,Terminal US Harvest,1990,NA,D.20
+Coho,Taku River,Terminal US Harvest,1991,NA,D.20
+Coho,Taku River,Terminal US Harvest,1992,74745,D.20
+Coho,Taku River,Terminal US Harvest,1993,35703,D.20
+Coho,Taku River,Terminal US Harvest,1994,101292,D.20
+Coho,Taku River,Terminal US Harvest,1995,59240,D.20
+Coho,Taku River,Terminal US Harvest,1996,17019,D.20
+Coho,Taku River,Terminal US Harvest,1997,6479,D.20
+Coho,Taku River,Terminal US Harvest,1998,17042,D.20
+Coho,Taku River,Terminal US Harvest,1999,9009,D.20
+Coho,Taku River,Terminal US Harvest,2000,11520,D.20
+Coho,Taku River,Terminal US Harvest,2001,11739,D.20
+Coho,Taku River,Terminal US Harvest,2002,33238,D.20
+Coho,Taku River,Terminal US Harvest,2003,25139,D.20
+Coho,Taku River,Terminal US Harvest,2004,25898,D.20
+Coho,Taku River,Terminal US Harvest,2005,21718,D.20
+Coho,Taku River,Terminal US Harvest,2006,36170,D.20
+Coho,Taku River,Terminal US Harvest,2007,16617,D.20
+Coho,Taku River,Terminal US Harvest,2008,24390,D.20
+Coho,Taku River,Terminal US Harvest,2009,42946,D.20
+Coho,Taku River,Terminal US Harvest,2010,55254,D.20
+Coho,Taku River,Terminal US Harvest,2011,9393,D.20
+Coho,Taku River,Terminal US Harvest,2012,11554,D.20
+Coho,Taku River,Terminal US Harvest,2013,25300,D.20
+Coho,Taku River,Terminal US Harvest,2014,31149,D.20
+Coho,Taku River,Terminal US Harvest,2015,9558,D.20
+Coho,Taku River,Terminal US Harvest,2016,11993,D.20
+Coho,Taku River,Terminal US Harvest,2017,12386,D.20
+Coho,Taku River,Terminal US Harvest,2018,24807,D.20
+Coho,Taku River,Terminal US Harvest,2019,10099,D.20
+Coho,Taku River,Terminal US Harvest,2020,2836.322905,D.20
+Coho,Taku River,Terminal US Harvest,2021,12027.3672,D.20
