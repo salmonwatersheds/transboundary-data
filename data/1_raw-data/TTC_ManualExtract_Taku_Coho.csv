@@ -34,6 +34,8 @@ Coho,Taku River,Escapement,2018,51173,D.20
 Coho,Taku River,Escapement,2019,82759,D.20
 Coho,Taku River,Escapement,2020,52063,D.20
 Coho,Taku River,Escapement,2021,75526.00057,D.20
+Coho,Taku River,Escapement,2022,66034,D.20
+Coho,Taku River,Escapement,2023,89022,D.20
 Coho,Taku River,Terminal Harvest Rate,1992,0.489504009,D.20
 Coho,Taku River,Terminal Harvest Rate,1993,0.25263204,D.20
 Coho,Taku River,Terminal Harvest Rate,1994,0.546253909,D.20
@@ -64,6 +66,8 @@ Coho,Taku River,Terminal Harvest Rate,2018,0.401380359,D.20
 Coho,Taku River,Terminal Harvest Rate,2019,0.212643897,D.20
 Coho,Taku River,Terminal Harvest Rate,2020,0.159397294,D.20
 Coho,Taku River,Terminal Harvest Rate,2021,0.233420433,D.20
+Coho,Taku River,Terminal Harvest Rate,2022,0.243085247,D.20
+Coho,Taku River,Terminal Harvest Rate,2023,0.226084084,D.20
 Coho,Taku River,Total Run,1992,212798,D.20
 Coho,Taku River,Total Run,1993,249320,D.20
 Coho,Taku River,Total Run,1994,339736,D.20
@@ -94,6 +98,8 @@ Coho,Taku River,Total Run,2018,83601.17291,D.20
 Coho,Taku River,Total Run,2019,117087.2329,D.20
 Coho,Taku River,Total Run,2020,73863,D.20
 Coho,Taku River,Total Run,2021,113264.1724,D.20
+Coho,Taku River,Total Run,2022,93222,D.20
+Coho,Taku River,Total Run,2023,133661,D.20
 Coho,Taku River,Terminal Run,1992,164015,D.20
 Coho,Taku River,Terminal Run,1993,159667,D.20
 Coho,Taku River,Terminal Run,1994,212328,D.20
@@ -123,7 +129,9 @@ Coho,Taku River,Terminal Run,2017,78056,D.20
 Coho,Taku River,Terminal Run,2018,85485,D.20
 Coho,Taku River,Terminal Run,2019,105110,D.20
 Coho,Taku River,Terminal Run,2020,61935.3229,D.20
-Coho,Taku River,Terminal Run,2021,98523.36776,D.20
+Coho,Taku River,Terminal Run,2021,98433.36776,D.20
+Coho,Taku River,Terminal Run,2022,87241,D.20
+Coho,Taku River,Terminal Run,2023,115028,D.20
 Coho,Taku River,Canadian Harvest,1987,6519,D.20
 Coho,Taku River,Canadian Harvest,1988,3643,D.20
 Coho,Taku River,Canadian Harvest,1989,4033,D.20
@@ -159,6 +167,8 @@ Coho,Taku River,Canadian Harvest,2018,9505,D.20
 Coho,Taku River,Canadian Harvest,2019,12252,D.20
 Coho,Taku River,Canadian Harvest,2020,7036,D.20
 Coho,Taku River,Canadian Harvest,2021,10880,D.20
+Coho,Taku River,Canadian Harvest,2022,7796,D.20
+Coho,Taku River,Canadian Harvest,2023,11387,D.20
 Coho,Taku River,Above Border Run,1992,49928.35133,D.20
 Coho,Taku River,Above Border Run,1993,67447.57276,D.20
 Coho,Taku River,Above Border Run,1994,98643,D.20
@@ -189,6 +199,8 @@ Coho,Taku River,Above Border Run,2018,60678,D.20
 Coho,Taku River,Above Border Run,2019,95011,D.20
 Coho,Taku River,Above Border Run,2020,53707,D.20
 Coho,Taku River,Above Border Run,2021,85800,D.20
+Coho,Taku River,Above Border Run,2022,54446,D.20
+Coho,Taku River,Above Border Run,2023,100409,D.20
 Coho,Taku River,Terminal US Harvest,1987,NA,D.20
 Coho,Taku River,Terminal US Harvest,1988,NA,D.20
 Coho,Taku River,Terminal US Harvest,1989,NA,D.20
@@ -224,3 +236,5 @@ Coho,Taku River,Terminal US Harvest,2018,24807,D.20
 Coho,Taku River,Terminal US Harvest,2019,10099,D.20
 Coho,Taku River,Terminal US Harvest,2020,2836.322905,D.20
 Coho,Taku River,Terminal US Harvest,2021,12027.3672,D.20
+Coho,Taku River,Terminal US Harvest,2022,13411,D.20
+Coho,Taku River,Terminal US Harvest,2023,14619,D.20
