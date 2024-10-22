@@ -12,12 +12,7 @@ library(sjmisc) # is_even and is_odd
 ###############################################################################
 
 # Sum of spawner surveys (ss) by CU
-ss.list <- sort(list.files( # Get list of all files
-	path = "output", 
-	pattern = "spawner_surveys_dataset_1part2_", 
-	full.names = TRUE)) 
-
-tbr.ss <- read_csv(tail(ss.list, 1)) # Source most recent file
+tbr.ss <- read_csv("output/dataset2_spawner_surveys.csv") # Source most recent file
 
 # Some spawner surveys need to be removed to avoid double counting 
 
@@ -45,14 +40,20 @@ cu.info.df <- read_csv("data/0_lookup-files/TBR_PSF_CU_Abundance_LookupFile.csv"
 # Loop through each CU and extract relevant data
 for(i in 1:length(cu.info.df$cuid)){
 	
-	if( cu.info.df$TTC_Species[i] == "Chinook"){
-		ttc.df <- read_csv("data/1_raw-data/TTC_ManualExtract_Alsek_ChinookE7full.csv") %>%
-			filter(!is.na(Value))
+	# if(cu.info.df$TTC_Species[i] == "Chinook"){
+	# 	ttc.df <- read_csv("data/1_raw-data/TTC_ManualExtract_Alsek_ChinookE7full.csv") %>%
+	# 		filter(!is.na(Value))
+	
+	if(cu.info.df$PSE_source[i] == "CTC"){
+		# Switch to using CTC data for Alsek Chinook
+		ttc.df <- readxl::read_xlsx("data/1_raw-data/TCCHINOOK-24-01-Appendix-B-Escapement-Detailed.xlsx", sheet = "B2", range = "A4:B52", col_names = c("Year", "Value"), col_types = c("numeric", "numeric")) %>% 
+			mutate(SPECIES = "Chinook", Stock = "Alsek River", Series = "Alsek River - Esc", TableSource = "B2") %>%
+			select(SPECIES, Stock, Series, Year, Value, TableSource)
 		
 	} else {
-			ttc.df <- read_csv(paste0("data/1_raw-data/TTC_ManualExtract_", cu.info.df$TTC_Stock[i], "_", cu.info.df$TTC_Species[i], ".csv")) %>%
-		filter(!is.na(Value))
-		}
+		ttc.df <- read_csv(paste0("data/1_raw-data/TTC_ManualExtract_", cu.info.df$TTC_Stock[i], "_", cu.info.df$TTC_Species[i], ".csv"), col_types = c("c", "c", "c", "d", "d", "c")) %>%
+			filter(!is.na(Value))
+	}
 	
 	esa.i <- full_join(ttc.df %>% 
 		filter(Series == cu.info.df$estimated_spawners[i]) %>%
@@ -79,7 +80,8 @@ esa
 # Merge observed and estimated
 ###############################################################################
 
-cu_list <- read_csv("data/1_raw-data/conservationunits_decoder.csv")
+cu_list <- read_csv("data/1_raw-data/conservationunits_decoder.csv") %>%
+	filter(region == "Northern Transboundary")
 
 # Note: We are not including estimated_spawners_plus (enhanced + wild) as a 
 # separate series because in all cases this is equal to observed spawner abundance.
@@ -88,7 +90,7 @@ sa <- full_join(osa, esa, by = c("cuid", "year")) %>%
 						 select(species_abbr, cu_name_pse, cuid))  %>%
 	mutate(region = "Transboundary") %>%
 	select(region, species_abbr, cuid, cu_name_pse, year, observed_spawners, estimated_spawners) %>%
-	arrange(region, species_abbr, cu_name_pse, year) 
+	arrange(region, species_abbr, cu_name_pse, year)
 
-write_csv(sa, paste0("output/spawner_abundance_dataset_1part1_", Sys.Date(), ".csv"))
-		
+write_csv(sa, paste0("output/archive/dataset1_spawner_abundance_", Sys.Date(), ".csv"))
+write_csv(sa, "output/dataset1_spawner_abundance.csv")

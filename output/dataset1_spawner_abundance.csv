@@ -45,8 +45,8 @@ Transboundary,CK,1004,Alsek,2018,1087,4348
 Transboundary,CK,1004,Alsek,2019,1573,6319
 Transboundary,CK,1004,Alsek,2020,1316,5330
 Transboundary,CK,1004,Alsek,2021,1384,5562
-Transboundary,CK,1004,Alsek,2022,934,3750
-Transboundary,CK,1004,Alsek,2023,1053,4234
+Transboundary,CK,1004,Alsek,2022,934,3351
+Transboundary,CK,1004,Alsek,2023,1053,4849
 Transboundary,CK,1005,Lynn Canal,1981,69,NA
 Transboundary,CK,1005,Lynn Canal,1982,123,NA
 Transboundary,CK,1005,Lynn Canal,1983,126,NA
@@ -785,25 +785,10 @@ Transboundary,SEL,1029,Tatsamenie,2020,2506,1937
 Transboundary,SEL,1029,Tatsamenie,2021,23906,17458
 Transboundary,SEL,1029,Tatsamenie,2022,20902,14475
 Transboundary,SEL,1029,Tatsamenie,2023,10566,5680
-Transboundary,SER,1021,Alsek (river-type),2000,37142,NA
-Transboundary,SER,1021,Alsek (river-type),2001,29987,NA
-Transboundary,SER,1021,Alsek (river-type),2002,93172,NA
-Transboundary,SER,1021,Alsek (river-type),2003,100712,NA
-Transboundary,SER,1021,Alsek (river-type),2004,81581,NA
-Transboundary,SER,1021,Alsek (river-type),2005,57223,NA
-Transboundary,SER,1021,Alsek (river-type),2006,47574,NA
-Transboundary,SER,1021,Alsek (river-type),2011,83899,NA
-Transboundary,SER,1021,Alsek (river-type),2012,76598,NA
-Transboundary,SER,1021,Alsek (river-type),2013,83771,NA
-Transboundary,SER,1021,Alsek (river-type),2014,87093,NA
-Transboundary,SER,1021,Alsek (river-type),2015,63709,NA
-Transboundary,SER,1021,Alsek (river-type),2016,58836,NA
-Transboundary,SER,1021,Alsek (river-type),2017,101564,NA
-Transboundary,SER,1021,Alsek (river-type),2019,81883,NA
-Transboundary,SER,1021,Alsek (river-type),2020,13071,NA
-Transboundary,SER,1021,Alsek (river-type),2021,99798,NA
-Transboundary,SER,1021,Alsek (river-type),2022,134418,NA
-Transboundary,SER,1021,Alsek (river-type),2023,39229,NA
+Transboundary,SER,1021,Alsek (river-type),1986,536,NA
+Transboundary,SER,1021,Alsek (river-type),1988,433,NA
+Transboundary,SER,1021,Alsek (river-type),1989,1689,NA
+Transboundary,SER,1021,Alsek (river-type),1994,366,NA
 Transboundary,SER,1023,Northern Transboundary Fjords (river-type),1979,16608,NA
 Transboundary,SER,1023,Northern Transboundary Fjords (river-type),1980,30806,NA
 Transboundary,SER,1023,Northern Transboundary Fjords (river-type),1981,61072,NA
