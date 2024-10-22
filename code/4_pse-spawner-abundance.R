@@ -48,7 +48,8 @@ for(i in 1:length(cu.info.df$cuid)){
 		# Switch to using CTC data for Alsek Chinook
 		ttc.df <- readxl::read_xlsx("data/1_raw-data/TCCHINOOK-24-01-Appendix-B-Escapement-Detailed.xlsx", sheet = "B2", range = "A4:B52", col_names = c("Year", "Value"), col_types = c("numeric", "numeric")) %>% 
 			mutate(SPECIES = "Chinook", Stock = "Alsek River", Series = "Alsek River - Esc", TableSource = "B2") %>%
-			select(SPECIES, Stock, Series, Year, Value, TableSource)
+			select(SPECIES, Stock, Series, Year, Value, TableSource) %>%
+			filter(!is.na(Value))
 		
 	} else {
 		ttc.df <- read_csv(paste0("data/1_raw-data/TTC_ManualExtract_", cu.info.df$TTC_Stock[i], "_", cu.info.df$TTC_Species[i], ".csv"), col_types = c("c", "c", "c", "d", "d", "c")) %>%
