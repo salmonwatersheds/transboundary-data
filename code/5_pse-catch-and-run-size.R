@@ -16,9 +16,13 @@ ttc <- read_csv("data/2_clean-data/TTC_MERGED.csv") %>%
 
 #------------------------------------------------------------------------------
 # Alsek Chinook run reconstruction (expanded version of TTC Appendix E.7)
+# Revised to use escapement from CTC (2024) that has MR estimates for 2022,2023
 #------------------------------------------------------------------------------
 ttc1 <- ttc %>%
 	filter(TableSource == "E.7_full")
+
+ctc <- readxl::read_xlsx("data/1_raw-data/TCCHINOOK-24-01-Appendix-B-Escapement-Detailed.xlsx", sheet = "B2", range = "A4:B52", col_names = c("Year", "Value"), col_types = c("numeric", "numeric")) %>% 
+	mutate(SPECIES = "Chinook", Stock = "Alsek River", Series = "Alsek River - Esc", TableSource = "B2")
 
 # Set up PSE output dataframe
 yrs <- sort(unique(ttc1$Year))
