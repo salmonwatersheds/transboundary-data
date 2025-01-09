@@ -126,6 +126,8 @@ ind.TakuSER <- which(combined.data.df$SPECIES_QUALIFIED == "SER" & combined.data
 
 combined.data.df$Spn_Combined[ind.TakuSER] <- combined.data.df$Spn_Combined[ind.TakuSER] - SEL_sum$`sum(Spn_TTC)`
 
+# Revise name of sockeye survey from Tahltan River to Tahltan Lake (Jason Calvert, pers. comm. January 9, 2025)
+combined.data.df$stream_name_pse[which(combined.data.df$stream_name_pse == "TAHLTAN RIVER" & combined.data.df$SPECIES_QUALIFIED == "SEL")] <- "TAHLTAN LAKE"
 
 ###############################################################################
 # Write to CSV
@@ -222,5 +224,6 @@ pse.data %>% filter(stream_observed_count == 0) %>%
 # Decision: Do NOT set these aerial surveys to zero, because they are targetting the CU of interest at the relevant time and are thus meaningful observations.
 
 # Write csv
-write_csv(pse.data, paste0("output/spawner_surveys_dataset_1part2_", Sys.Date(),  ".csv"))
+write_csv(pse.data, paste0("output/archive/dataset2_spawner-surveys_Transboundary_", Sys.Date(),  ".csv"))
+write_csv(pse.data, "output/dataset2_spawner-surveys_Transboundary.csv")
 
