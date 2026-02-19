@@ -1,0 +1,280 @@
+SPECIES,Stock,Series,Year,Value,TableSource
+Coho,Stikine River,Sum of escapement indices,1984,517,B.30
+Coho,Stikine River,Sum of escapement indices,1985,"3,870",B.30
+Coho,Stikine River,Sum of escapement indices,1988,584,B.30
+Coho,Stikine River,Sum of escapement indices,1989,"4,044",B.30
+Coho,Stikine River,Sum of escapement indices,1990,"3,040",B.30
+Coho,Stikine River,Sum of escapement indices,1991,"2,956",B.30
+Coho,Stikine River,Sum of escapement indices,1992,"3,688",B.30
+Coho,Stikine River,Sum of escapement indices,1993,NA,B.30
+Coho,Stikine River,Sum of escapement indices,1994,"3,725",B.30
+Coho,Stikine River,Sum of escapement indices,1995,"3,752",B.30
+Coho,Stikine River,Sum of escapement indices,1996,"3,245",B.30
+Coho,Stikine River,Sum of escapement indices,1997,"1,057",B.30
+Coho,Stikine River,Sum of escapement indices,1998,"1,093",B.30
+Coho,Stikine River,Sum of escapement indices,1999,"3,872",B.30
+Coho,Stikine River,Sum of escapement indices,2000,306,B.30
+Coho,Stikine River,Sum of escapement indices,2001,"7,405",B.30
+Coho,Stikine River,Sum of escapement indices,2002,"12,646",B.30
+Coho,Stikine River,Sum of escapement indices,2003,,B.30
+Coho,Stikine River,Sum of escapement indices,2004,"3,000",B.30
+Coho,Stikine River,Sum of escapement indices,2005,"3,199",B.30
+Coho,Stikine River,Sum of escapement indices,2006,"2,213",B.30
+Coho,Stikine River,Sum of escapement indices,2007,"1,557",B.30
+Coho,Stikine River,Sum of escapement indices,2008,"1,147",B.30
+Coho,Stikine River,Sum of escapement indices,2009,"2,275",B.30
+Coho,Stikine River,Sum of escapement indices,2010,"1,751",B.30
+Coho,Stikine River,Sum of escapement indices,2011,"2,542",B.30
+Coho,Stikine River,Sum of escapement indices,2012,NA,B.30
+Coho,Stikine River,Sum of escapement indices,2013,"1,640",B.30
+Coho,Stikine River,Sum of escapement indices,2014,"1,195",B.30
+Coho,Stikine River,Sum of escapement indices,2015,"1,181",B.30
+Coho,Stikine River,Sum of escapement indices,2016,292,B.30
+Coho,Stikine River,Sum of escapement indices,2017,"1,656",B.30
+Coho,Stikine River,Sum of escapement indices,2018,"1,994",B.30
+Coho,Stikine River,Sum of escapement indices,2019,398,B.30
+Coho,Stikine River,Sum of escapement indices,2020,199,B.30
+Coho,Stikine River,Sum of escapement indices,2021,"2,456",B.30
+Coho,Stikine River,Sum of escapement indices,2022,"1,308",B.30
+Coho,Stikine River,Sum of escapement indices,2023,"6,869",B.30
+Coho,Stikine River,Sum of escapement indices,2024,"2,261",B.30
+Coho,Stikine River,West Katete River Aerial Index,1984,147,B.30
+Coho,Stikine River,West Katete River Aerial Index,1985,590,B.30
+Coho,Stikine River,West Katete River Aerial Index,1988,32,B.30
+Coho,Stikine River,West Katete River Aerial Index,1989,336,B.30
+Coho,Stikine River,West Katete River Aerial Index,1990,94,B.30
+Coho,Stikine River,West Katete River Aerial Index,1991,302,B.30
+Coho,Stikine River,West Katete River Aerial Index,1992,295,B.30
+Coho,Stikine River,West Katete River Aerial Index,1993,NA,B.30
+Coho,Stikine River,West Katete River Aerial Index,1994,28,B.30
+Coho,Stikine River,West Katete River Aerial Index,1995,211,B.30
+Coho,Stikine River,West Katete River Aerial Index,1996,163,B.30
+Coho,Stikine River,West Katete River Aerial Index,1997,2,B.30
+Coho,Stikine River,West Katete River Aerial Index,1998,14,B.30
+Coho,Stikine River,West Katete River Aerial Index,1999,163,B.30
+Coho,Stikine River,West Katete River Aerial Index,2000,NA,B.30
+Coho,Stikine River,West Katete River Aerial Index,2001,207,B.30
+Coho,Stikine River,West Katete River Aerial Index,2002,806,B.30
+Coho,Stikine River,West Katete River Aerial Index,2003,NA,B.30
+Coho,Stikine River,West Katete River Aerial Index,2004,78,B.30
+Coho,Stikine River,West Katete River Aerial Index,2005,300,B.30
+Coho,Stikine River,West Katete River Aerial Index,2006,350,B.30
+Coho,Stikine River,West Katete River Aerial Index,2007,66,B.30
+Coho,Stikine River,West Katete River Aerial Index,2008,NA,B.30
+Coho,Stikine River,West Katete River Aerial Index,2009,212,B.30
+Coho,Stikine River,West Katete River Aerial Index,2010,37,B.30
+Coho,Stikine River,West Katete River Aerial Index,2011,182,B.30
+Coho,Stikine River,West Katete River Aerial Index,2012,aborted,B.30
+Coho,Stikine River,West Katete River Aerial Index,2013,449,B.30
+Coho,Stikine River,West Katete River Aerial Index,2014,7,B.30
+Coho,Stikine River,West Katete River Aerial Index,2015,15,B.30
+Coho,Stikine River,West Katete River Aerial Index,2016,0,B.30
+Coho,Stikine River,West Katete River Aerial Index,2017,246,B.30
+Coho,Stikine River,West Katete River Aerial Index,2018,463,B.30
+Coho,Stikine River,West Katete River Aerial Index,2019,1,B.30
+Coho,Stikine River,West Katete River Aerial Index,2020,aborted,B.30
+Coho,Stikine River,West Katete River Aerial Index,2021,346,B.30
+Coho,Stikine River,West Katete River Aerial Index,2022,137,B.30
+Coho,Stikine River,West Katete River Aerial Index,2023,"1,147",B.30
+Coho,Stikine River,West Katete River Aerial Index,2024,64,B.30
+Coho,Stikine River,Katete River Aerial Index,1984,313,B.30
+Coho,Stikine River,Katete River Aerial Index,1985,"1,217",B.30
+Coho,Stikine River,Katete River Aerial Index,1988,227,B.30
+Coho,Stikine River,Katete River Aerial Index,1989,896,B.30
+Coho,Stikine River,Katete River Aerial Index,1990,548,B.30
+Coho,Stikine River,Katete River Aerial Index,1991,878,B.30
+Coho,Stikine River,Katete River Aerial Index,1992,"1,346",B.30
+Coho,Stikine River,Katete River Aerial Index,1993,NA,B.30
+Coho,Stikine River,Katete River Aerial Index,1994,652,B.30
+Coho,Stikine River,Katete River Aerial Index,1995,208,B.30
+Coho,Stikine River,Katete River Aerial Index,1996,232,B.30
+Coho,Stikine River,Katete River Aerial Index,1997,0,B.30
+Coho,Stikine River,Katete River Aerial Index,1998,63,B.30
+Coho,Stikine River,Katete River Aerial Index,1999,773,B.30
+Coho,Stikine River,Katete River Aerial Index,2000,NA,B.30
+Coho,Stikine River,Katete River Aerial Index,2001,"1,401",B.30
+Coho,Stikine River,Katete River Aerial Index,2002,"2,642",B.30
+Coho,Stikine River,Katete River Aerial Index,2003,NA,B.30
+Coho,Stikine River,Katete River Aerial Index,2004,762,B.30
+Coho,Stikine River,Katete River Aerial Index,2005,"1,195",B.30
+Coho,Stikine River,Katete River Aerial Index,2006,543,B.30
+Coho,Stikine River,Katete River Aerial Index,2007,190,B.30
+Coho,Stikine River,Katete River Aerial Index,2008,NA,B.30
+Coho,Stikine River,Katete River Aerial Index,2009,698,B.30
+Coho,Stikine River,Katete River Aerial Index,2010,237,B.30
+Coho,Stikine River,Katete River Aerial Index,2011,689,B.30
+Coho,Stikine River,Katete River Aerial Index,2012,aborted,B.30
+Coho,Stikine River,Katete River Aerial Index,2013,191,B.30
+Coho,Stikine River,Katete River Aerial Index,2014,255,B.30
+Coho,Stikine River,Katete River Aerial Index,2015,168,B.30
+Coho,Stikine River,Katete River Aerial Index,2016,0,B.30
+Coho,Stikine River,Katete River Aerial Index,2017,538,B.30
+Coho,Stikine River,Katete River Aerial Index,2018,185,B.30
+Coho,Stikine River,Katete River Aerial Index,2019,50,B.30
+Coho,Stikine River,Katete River Aerial Index,2020,aborted,B.30
+Coho,Stikine River,Katete River Aerial Index,2021,120,B.30
+Coho,Stikine River,Katete River Aerial Index,2022,366,B.30
+Coho,Stikine River,Katete River Aerial Index,2023,"1,713",B.30
+Coho,Stikine River,Katete River Aerial Index,2024,253,B.30
+Coho,Stikine River,Craig River Aerial Index,1984,0,B.30
+Coho,Stikine River,Craig River Aerial Index,1985,735,B.30
+Coho,Stikine River,Craig River Aerial Index,1988,NA,B.30
+Coho,Stikine River,Craig River Aerial Index,1989,992,B.30
+Coho,Stikine River,Craig River Aerial Index,1990,810,B.30
+Coho,Stikine River,Craig River Aerial Index,1991,985,B.30
+Coho,Stikine River,Craig River Aerial Index,1992,949,B.30
+Coho,Stikine River,Craig River Aerial Index,1993,NA,B.30
+Coho,Stikine River,Craig River Aerial Index,1994,"1,026",B.30
+Coho,Stikine River,Craig River Aerial Index,1995,"1,419",B.30
+Coho,Stikine River,Craig River Aerial Index,1996,205,B.30
+Coho,Stikine River,Craig River Aerial Index,1997,19,B.30
+Coho,Stikine River,Craig River Aerial Index,1998,141,B.30
+Coho,Stikine River,Craig River Aerial Index,1999,891,B.30
+Coho,Stikine River,Craig River Aerial Index,2000,NA,B.30
+Coho,Stikine River,Craig River Aerial Index,2001,"3,121",B.30
+Coho,Stikine River,Craig River Aerial Index,2002,"4,488",B.30
+Coho,Stikine River,Craig River Aerial Index,2003,NA,B.30
+Coho,Stikine River,Craig River Aerial Index,2004,19,B.30
+Coho,Stikine River,Craig River Aerial Index,2005,444,B.30
+Coho,Stikine River,Craig River Aerial Index,2006,675,B.30
+Coho,Stikine River,Craig River Aerial Index,2007,567,B.30
+Coho,Stikine River,Craig River Aerial Index,2008,535,B.30
+Coho,Stikine River,Craig River Aerial Index,2009,475,B.30
+Coho,Stikine River,Craig River Aerial Index,2010,31,B.30
+Coho,Stikine River,Craig River Aerial Index,2011,459,B.30
+Coho,Stikine River,Craig River Aerial Index,2012,aborted,B.30
+Coho,Stikine River,Craig River Aerial Index,2013,675,B.30
+Coho,Stikine River,Craig River Aerial Index,2014,212,B.30
+Coho,Stikine River,Craig River Aerial Index,2015,608,B.30
+Coho,Stikine River,Craig River Aerial Index,2016,10,B.30
+Coho,Stikine River,Craig River Aerial Index,2017,570,B.30
+Coho,Stikine River,Craig River Aerial Index,2018,736,B.30
+Coho,Stikine River,Craig River Aerial Index,2019,61,B.30
+Coho,Stikine River,Craig River Aerial Index,2020,aborted,B.30
+Coho,Stikine River,Craig River Aerial Index,2021,"1,475",B.30
+Coho,Stikine River,Craig River Aerial Index,2022,160,B.30
+Coho,Stikine River,Craig River Aerial Index,2023,"3,311",B.30
+Coho,Stikine River,Craig River Aerial Index,2024,"1,614",B.30
+Coho,Stikine River,Verrett River Aerial Index,1984,15,B.30
+Coho,Stikine River,Verrett River Aerial Index,1985,39,B.30
+Coho,Stikine River,Verrett River Aerial Index,1988,175,B.30
+Coho,Stikine River,Verrett River Aerial Index,1989,848,B.30
+Coho,Stikine River,Verrett River Aerial Index,1990,494,B.30
+Coho,Stikine River,Verrett River Aerial Index,1991,218,B.30
+Coho,Stikine River,Verrett River Aerial Index,1992,320,B.30
+Coho,Stikine River,Verrett River Aerial Index,1993,NA,B.30
+Coho,Stikine River,Verrett River Aerial Index,1994,466,B.30
+Coho,Stikine River,Verrett River Aerial Index,1995,574,B.30
+Coho,Stikine River,Verrett River Aerial Index,1996,549,B.30
+Coho,Stikine River,Verrett River Aerial Index,1997,116,B.30
+Coho,Stikine River,Verrett River Aerial Index,1998,282,B.30
+Coho,Stikine River,Verrett River Aerial Index,1999,490,B.30
+Coho,Stikine River,Verrett River Aerial Index,2000,5,B.30
+Coho,Stikine River,Verrett River Aerial Index,2001,708,B.30
+Coho,Stikine River,Verrett River Aerial Index,2002,"1,695",B.30
+Coho,Stikine River,Verrett River Aerial Index,2003,NA,B.30
+Coho,Stikine River,Verrett River Aerial Index,2004,959,B.30
+Coho,Stikine River,Verrett River Aerial Index,2005,353,B.30
+Coho,Stikine River,Verrett River Aerial Index,2006,403,B.30
+Coho,Stikine River,Verrett River Aerial Index,2007,240,B.30
+Coho,Stikine River,Verrett River Aerial Index,2008,501,B.30
+Coho,Stikine River,Verrett River Aerial Index,2009,257,B.30
+Coho,Stikine River,Verrett River Aerial Index,2010,363,B.30
+Coho,Stikine River,Verrett River Aerial Index,2011,309,B.30
+Coho,Stikine River,Verrett River Aerial Index,2012,aborted,B.30
+Coho,Stikine River,Verrett River Aerial Index,2013,249,B.30
+Coho,Stikine River,Verrett River Aerial Index,2014,74,B.30
+Coho,Stikine River,Verrett River Aerial Index,2015,66,B.30
+Coho,Stikine River,Verrett River Aerial Index,2016,152,B.30
+Coho,Stikine River,Verrett River Aerial Index,2017,189,B.30
+Coho,Stikine River,Verrett River Aerial Index,2018,22,B.30
+Coho,Stikine River,Verrett River Aerial Index,2019,48,B.30
+Coho,Stikine River,Verrett River Aerial Index,2020,aborted,B.30
+Coho,Stikine River,Verrett River Aerial Index,2021,378,B.30
+Coho,Stikine River,Verrett River Aerial Index,2022,579,B.30
+Coho,Stikine River,Verrett River Aerial Index,2023,113,B.30
+Coho,Stikine River,Verrett River Aerial Index,2024,64,B.30
+Coho,Stikine River,Bronson Slough Aerial Index,1984,42,B.30
+Coho,Stikine River,Bronson Slough Aerial Index,1985,0,B.30
+Coho,Stikine River,Bronson Slough Aerial Index,1988,NA,B.30
+Coho,Stikine River,Bronson Slough Aerial Index,1989,120,B.30
+Coho,Stikine River,Christina Creek Aerial Index,1988,0,B.30
+Coho,Stikine River,Christina Creek Aerial Index,1989,55,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1984,NA,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1985,924,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1988,97,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1989,707,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1990,664,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1991,221,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1992,462,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1993,206,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1994,448,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1995,621,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1996,630,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1997,272,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1998,143,B.30
+Coho,Stikine River,Scud Slough Aerial Index,1999,661,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2000,95,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2001,"1,571",B.30
+Coho,Stikine River,Scud Slough Aerial Index,2002,"1,389",B.30
+Coho,Stikine River,Scud Slough Aerial Index,2003,NA,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2004,173,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2005,218,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2006,95,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2007,153,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2008,86,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2009,16,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2010,130,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2011,437,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2012,3,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2013,23,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2014,138,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2015,61,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2016,90,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2017,36,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2018,128,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2019,190,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2020,aborted,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2021,77,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2022,40,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2023,410,B.30
+Coho,Stikine River,Scud Slough Aerial Index,2024,177,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1984,NA,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1985,365,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1988,53,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1989,90,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1990,430,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1991,352,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1992,316,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1993,324,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1994,"1,105",B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1995,719,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1996,"1,466",B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1997,648,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1998,450,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,1999,894,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2000,206,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2001,397,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2002,"1,626",B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2003,NA,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2004,"1,009",B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2005,689,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2006,147,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2007,341,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2008,25,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2009,617,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2010,953,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2011,468,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2012,336,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2013,53,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2014,509,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2015,263,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2016,40,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2017,77,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2018,460,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2019,48,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2020,199,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2021,60,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2022,26,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2023,175,B.30
+Coho,Stikine River,Porcupine Slough Aerial Index,2024,89,B.30

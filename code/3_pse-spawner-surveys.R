@@ -7,10 +7,15 @@ library(tidyverse)
 library(sjmisc) # is_even and is_odd
 
 # read in cleaned data
-site.info.df <- read_csv("data/0_lookup-files/TBR_PSF_CU_Site_LookupFile.csv")
-nuseds.src <- read_csv("data/2_clean-data/TBR_nuSEDS_Clean.csv") %>%
-                mutate(POP_ID = as.numeric(POP_ID))
+# Revision for January 2026: Only include TTC data (NuSEDS compiled separately)
+site.info.df <- read_csv("data/0_lookup-files/TBR_PSF_CU_Site_LookupFile.csv") %>%
+	filter(PSE_source != "NuSEDS")
+# nuseds.src <- read_csv("data/2_clean-data/TBR_nuSEDS_Clean.csv") %>%
+#                 mutate(POP_ID = as.numeric(POP_ID))
 ttc.src <- read_csv("data/2_clean-data/TTC_MERGED.csv")
+
+# Check that all TTC-source time series are in ttc.src
+which(site.info.df$TTC_RECORD_MATCH[site.info.df$PSE_source == "TTC"] %in% unique(ttc.src$Series) == FALSE)
 
 # Bring in two additional sources of data : Stonehouse and Nahlin river Sonar
 # Arrange by year
@@ -21,35 +26,33 @@ nahlin.src <- read_csv("data/1_raw-data/nahlin_river_sonar.csv") %>%
 	rename(Year = "year") %>%
 	arrange(Year)
 
-years.include <- 1920:2023
+years.include <- 1920:2024
 
 # generate template for flat file (all combos of year and pop ID)
 # streamid is the unique identifier for each spawner survey stream; not POP_ID
 combined.data.df <- expand.grid(site.info.df$streamid, years.include) %>%
                     dplyr::rename(streamid = "Var1",Year = "Var2") %>%
                     arrange(streamid)
-head(combined.data.df )
+head(combined.data.df)
 
 str(combined.data.df)
 
 # add in CU info
 names(site.info.df)
 
-combined.data.df <- combined.data.df %>% left_join(site.info.df %>%
+combined.data.df <- combined.data.df %>% 
+	left_join(site.info.df %>%
                       select(SPECIES_QUALIFIED,cu_name_pse,cuid,stream_name_pse,streamid,PSE_source,TTC_Species, TTC_STOCK_MATCH,TTC_RECORD_MATCH,TTC_METHOD, TTC_QUALITY, POP_ID, IS_INDICATOR, latitude, longitude),
                       by = "streamid")
 
 head(combined.data.df)
 
 
-# merge in nuseds data **for those streams that have it**
-combined.data.df  <- combined.data.df %>% left_join(nuseds.src %>% select(POP_ID,Year,MAX_ESTIMATE, ESTIMATE_METHOD,ESTIMATE_CLASSIFICATION), by=c("POP_ID","Year")) %>%
-                        dplyr::rename(Spn_nuSEDS = "MAX_ESTIMATE")
-
-head(combined.data.df )
-
-
-# ** Remove even/odd data that aren't applicable for pink CUs at the end *
+# # merge in nuseds data **for those streams that have it**
+# combined.data.df  <- combined.data.df %>% left_join(nuseds.src %>% select(POP_ID,Year,MAX_ESTIMATE, ESTIMATE_METHOD,ESTIMATE_CLASSIFICATION), by=c("POP_ID","Year")) %>%
+#                         dplyr::rename(Spn_nuSEDS = "MAX_ESTIMATE")
+# 
+# head(combined.data.df )
 
 
 # merge in TTC data
@@ -57,38 +60,45 @@ ttc.src
 
 combined.data.df <- combined.data.df %>% left_join(ttc.src %>%
                             select(SPECIES,Stock,Series,Year, Value) %>%
-                              dplyr::rename(Spn_TTC = "Value",TTC_Species = "SPECIES", TTC_STOCK_MATCH = "Stock",TTC_RECORD_MATCH = "Series"),
-                            by=c("TTC_Species", "TTC_STOCK_MATCH", "TTC_RECORD_MATCH", "Year"))
+                              dplyr::rename(
+                              	Spn_TTC = "Value", 
+                              	TTC_Species = "SPECIES", 
+                              	TTC_STOCK_MATCH = "Stock", 
+                              	TTC_RECORD_MATCH = "Series"),
+                            by = c("TTC_Species", "TTC_STOCK_MATCH", "TTC_RECORD_MATCH", "Year"))
 
 
-head(combined.data.df )
+head(combined.data.df)
 
 # Method changed for Village Creek counter from resistor to video
 combined.data.df$TTC_METHOD[combined.data.df$TTC_RECORD_MATCH == "Village Creek Counter" & combined.data.df$Year <= 2013 & !is.na(combined.data.df$Spn_TTC)] <- "Conductivity counter"
 combined.data.df$TTC_METHOD[combined.data.df$TTC_RECORD_MATCH == "Village Creek Counter" & combined.data.df$Year > 2013 & !is.na(combined.data.df$Spn_TTC)] <- "Video counter"
 
-# Method for Alsek SER Spawning Escapement changed
-combined.data.df$TTC_METHOD[combined.data.df$TTC_RECORD_MATCH == "Spawning Escapement" & combined.data.df$SPECIES_QUALIFIED == "SER" & combined.data.df$Year <= 2004 & !is.na(combined.data.df$Spn_TTC)] <- "Mark-recapture"
-combined.data.df$TTC_METHOD[combined.data.df$TTC_RECORD_MATCH == "Spawning Escapement" & combined.data.df$SPECIES_QUALIFIED == "SER" & combined.data.df$Year > 2004 & !is.na(combined.data.df$Spn_TTC)] <- "GSI + Fence expansion"
+# # *****************************************************************************
+# # Method for Alsek SER Spawning Escapement changed ***January 2026 - unlcear what survey this is. ***
+# combined.data.df$TTC_METHOD[combined.data.df$TTC_RECORD_MATCH == "Spawning Escapement" & combined.data.df$SPECIES_QUALIFIED == "SER" & combined.data.df$Year <= 2004 & !is.na(combined.data.df$Spn_TTC)] <- "Mark-recapture"
+# combined.data.df$TTC_METHOD[combined.data.df$TTC_RECORD_MATCH == "Spawning Escapement" & combined.data.df$SPECIES_QUALIFIED == "SER" & combined.data.df$Year > 2004 & !is.na(combined.data.df$Spn_TTC)] <- "GSI + Fence expansion"
+# # *****************************************************************************
 
-# calculate difference diagnostics
-combined.data.df <- combined.data.df %>%
-                        mutate(Diff = Spn_TTC - Spn_nuSEDS) %>%
-                        mutate(PercDiff = round(100* Diff/Spn_TTC,2))
-
-head(combined.data.df %>%filter(!is.na(PercDiff)))
-
-head(combined.data.df %>% filter(Year > 2020))
+# # calculate difference diagnostics
+# combined.data.df <- combined.data.df %>%
+#                         mutate(Diff = Spn_TTC - Spn_nuSEDS) %>%
+#                         mutate(PercDiff = round(100* Diff/Spn_TTC,2))
+# 
+# head(combined.data.df %>%filter(!is.na(PercDiff)))
+# 
+# head(combined.data.df %>% filter(Year > 2020))
 
 # generate combined series (approach changed March 2024)
 # - use TTC if there are ANY TTC data
 # - use NuSEDS if no TTC data
 combined.data.df$Spn_Combined <- NA
 combined.data.df$Spn_Combined[combined.data.df$PSE_source == "TTC"] <- combined.data.df$Spn_TTC[combined.data.df$PSE_source == "TTC"]
-combined.data.df$Spn_Combined[combined.data.df$PSE_source == "NuSEDS"] <- combined.data.df$Spn_nuSEDS[combined.data.df$PSE_source == "NuSEDS"]
+# combined.data.df$Spn_Combined[combined.data.df$PSE_source == "NuSEDS"] <- combined.data.df$Spn_nuSEDS[combined.data.df$PSE_source == "NuSEDS"]
 
-head(combined.data.df %>% filter(!is.na(Spn_Combined)))
+combined.data.df %>% filter(!is.na(Spn_Combined), Year > 2022)
 
+unique(paste(combined.data.df$cu_name_pse, combined.data.df$stream_name_pse))
 #------------------------------------------------------------------------------
 # PSE additions/changes; made to Spn_Combined
 #------------------------------------------------------------------------------
@@ -101,8 +111,8 @@ combined.data.df[which(combined.data.df$stream_name_pse == "STONEHOUSE" & combin
 combined.data.df[which(combined.data.df$stream_name_pse == "NAHLIN RIVER SONAR" & combined.data.df$Year %in% nahlin.src$Year), "Spn_Combined"] <- nahlin.src$Value
 
 # Remove pink even/odd data that aren't applicable
-combined.data.df[which(combined.data.df$SPECIES_QUALIFIED == "PKO" & is_even(combined.data.df$Year)), c("Spn_Combined", "Spn_nuSEDS", "Spn_TTC")] <- NA
-combined.data.df[which(combined.data.df$SPECIES_QUALIFIED == "PKE" & is_odd(combined.data.df$Year)), c("Spn_Combined", "Spn_nuSEDS", "Spn_TTC")] <- NA
+combined.data.df[which(combined.data.df$SPECIES_QUALIFIED == "PKO" & is_even(combined.data.df$Year)), c("Spn_Combined", "Spn_TTC")] <- NA
+combined.data.df[which(combined.data.df$SPECIES_QUALIFIED == "PKE" & is_odd(combined.data.df$Year)), c("Spn_Combined", "Spn_TTC")] <- NA
 
 #-----
 # Subtract SEL from Taku River SER
@@ -121,46 +131,53 @@ combined.data.df <- combined.data.df %>%
 	mutate(Spn_Combined = replace(Spn_Combined, 
 																SPECIES_QUALIFIED == "SER" & TTC_STOCK_MATCH == "Taku River" & Year < 2004 & TTC_RECORD_MATCH == "Natural Spawning Escapement", NA))
 
-# Substract SEL from SER for 2004-2023
+# Substract SEL from SER for 2004-2024
 ind.TakuSER <- which(combined.data.df$SPECIES_QUALIFIED == "SER" & combined.data.df$TTC_STOCK_MATCH == "Taku River" & combined.data.df$Year >= 2004 & combined.data.df$TTC_RECORD_MATCH == "Natural Spawning Escapement")
 
 combined.data.df$Spn_Combined[ind.TakuSER] <- combined.data.df$Spn_Combined[ind.TakuSER] - SEL_sum$`sum(Spn_TTC)`
 
+# # *****************************************************************************
 # Revise name of sockeye survey from Tahltan River to Tahltan Lake (Jason Calvert, pers. comm. January 9, 2025)
-combined.data.df$stream_name_pse[which(combined.data.df$stream_name_pse == "TAHLTAN RIVER" & combined.data.df$SPECIES_QUALIFIED == "SEL")] <- "TAHLTAN LAKE"
+# This survey comes from NuSEDS
+# combined.data.df$stream_name_pse[which(combined.data.df$stream_name_pse == "TAHLTAN RIVER" & combined.data.df$SPECIES_QUALIFIED == "SEL")] <- "TAHLTAN LAKE"
+# # *****************************************************************************
 
 ###############################################################################
 # Write to CSV
 ###############################################################################
 
-write_csv(combined.data.df,"data/2_clean-data/1_Combined_Data_Long_WithDetails.csv")
+# # *****************************************************************************
+# Intermediate summary files for TBR Snapshots report no longer needed.
+# # *****************************************************************************
 
-names(combined.data.df)
-
-# Change from arrange by TTC_Species to SPECIES_QUALIFIED
-record.summary.byyear.byspecies <- combined.data.df %>% group_by(Year,SPECIES_QUALIFIED) %>%
-    summarize(Num_nuSEDS = sum(!is.na(Spn_nuSEDS)),
-              Num_TTC = sum(!is.na(Spn_TTC)),
-    					Num_Combined = sum(!is.na(Spn_Combined))) %>%
-    arrange(SPECIES_QUALIFIED)
-
-write_csv(record.summary.byyear.byspecies,"data/2_clean-data/3_RecordSummary_ByYear_BySpecies.csv")
-
-
-# create "wide" file for explorer input
-
-
-wide.data.df <- combined.data.df %>% select(streamid, Year, Spn_Combined) %>%
-                #mutate(Year = paste0("X.",Year)) %>%
-                # mutate(Spn_Combined = replace_na(as.character(Spn_Combined),"")) %>%
-                pivot_wider(id_cols = streamid,names_from = Year, names_prefix = "X.",values_from = Spn_Combined)  #, values_fn = length)
-
-
-wide.data.df <- left_join(site.info.df,wide.data.df, by="streamid")
-
-head(wide.data.df)
-
-write_csv(wide.data.df,"data/2_clean-data/2_Combined_Data_Wide.csv")
+# write_csv(combined.data.df,"data/2_clean-data/1_Combined_Data_Long_WithDetails.csv")
+# 
+# names(combined.data.df)
+# 
+# # Change from arrange by TTC_Species to SPECIES_QUALIFIED
+# record.summary.byyear.byspecies <- combined.data.df %>% group_by(Year,SPECIES_QUALIFIED) %>%
+#     summarize(Num_nuSEDS = sum(!is.na(Spn_nuSEDS)),
+#               Num_TTC = sum(!is.na(Spn_TTC)),
+#     					Num_Combined = sum(!is.na(Spn_Combined))) %>%
+#     arrange(SPECIES_QUALIFIED)
+# 
+# write_csv(record.summary.byyear.byspecies,"data/2_clean-data/3_RecordSummary_ByYear_BySpecies.csv")
+# 
+# 
+# # create "wide" file for explorer input
+# 
+# 
+# wide.data.df <- combined.data.df %>% select(streamid, Year, Spn_Combined) %>%
+#                 #mutate(Year = paste0("X.",Year)) %>%
+#                 # mutate(Spn_Combined = replace_na(as.character(Spn_Combined),"")) %>%
+#                 pivot_wider(id_cols = streamid,names_from = Year, names_prefix = "X.",values_from = Spn_Combined)  #, values_fn = length)
+# 
+# 
+# wide.data.df <- left_join(site.info.df,wide.data.df, by="streamid")
+# 
+# head(wide.data.df)
+# 
+# write_csv(wide.data.df,"data/2_clean-data/2_Combined_Data_Wide.csv")
 
 ###############################################################################
 # Output data for PSE spawner surveys
@@ -179,7 +196,7 @@ qualityScores <- data.frame(
 
 combined.data.df$DQ <- NA
 combined.data.df$DQ[combined.data.df$PSE_source != "NuSEDS"] <- qualityScores$DQ[match(combined.data.df$TTC_QUALITY[combined.data.df$PSE_source != "NuSEDS"], qualityScores$TTC_QUALITY)]
-combined.data.df$DQ[combined.data.df$PSE_source == "NuSEDS"] <- qualityScores$DQ[match(combined.data.df$ESTIMATE_CLASSIFICATION[combined.data.df$PSE_source == "NuSEDS"], qualityScores$ESTIMATE_CLASSIFICATION)]
+# combined.data.df$DQ[combined.data.df$PSE_source == "NuSEDS"] <- qualityScores$DQ[match(combined.data.df$ESTIMATE_CLASSIFICATION[combined.data.df$PSE_source == "NuSEDS"], qualityScores$ESTIMATE_CLASSIFICATION)]
 
 # Include species_name field
 speciesLookup <- data.frame(
@@ -202,19 +219,26 @@ pse.data <- data.frame(
 	year = combined.data.df$Year,
 	stream_observed_count = combined.data.df$Spn_Combined, # !! Draws on Spn_Combined field
 	survey_method = ifelse(combined.data.df$PSE_source == "NuSEDS", combined.data.df$ESTIMATE_METHOD, combined.data.df$TTC_METHOD),
-	survey_qual = combined.data.df$DQ
+	survey_qual = combined.data.df$DQ,
+	source_id = "Foos_20250415" # Majority are from TTC, except for two
 )
+
 
 # Remove years with no data
 pse.data <- pse.data %>%
 	filter(!is.na(stream_observed_count))
+
+# Correct source_id for those NOT from TTC
+pse.data$source_id[pse.data$stream_name_pse == "Stonehouse"] <- "Pahlke_19920901"
+pse.data$source_id[pse.data$stream_name_pse == "Nahlin River Sonar" & pse.data$year %in% c(2016:2023)] <- "Foos_20240315"
+
 
 # Assume if there's no IS_INDICATOR that it's a non-indicator
 pse.data$indicator[is.na(pse.data$indicator)] <- "N"
 
 # Check zeroes (historically we set zeros to NAs...)
 pse.data %>% filter(stream_observed_count == 0) %>%
-	data.frame() # Aerial surveys -> NA
+	data.frame() # Aerial surveys -> NA. No leave these in.
 
 # pse.data <- pse.data %>% 
 # 	mutate(stream_observed_count = replace(

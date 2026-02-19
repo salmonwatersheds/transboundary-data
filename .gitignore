@@ -51,6 +51,8 @@ rsconnect/
 
 # raw data that's too big to share
 data/1_raw-data/NuSEDS_data_20240227.xlsx
+data/1_raw-data/conservation_unit_system_sites.csv
+data/1_raw-data/Yukon and Transboundary NuSEDS_20250730.csv
 
 # Ignore archived output datasets
 output/archive

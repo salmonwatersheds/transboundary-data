@@ -1,0 +1,202 @@
+SPECIES,Stock,Series,Year,Value,TableSource
+Chinook,Stikine River,Beatty Aerial,1980,122,B.13
+Chinook,Stikine River,Beatty Aerial,1981,558,B.13
+Chinook,Stikine River,Beatty Aerial,1982,567,B.13
+Chinook,Stikine River,Beatty Aerial,1983,83,B.13
+Chinook,Stikine River,Beatty Aerial,1984,126,B.13
+Chinook,Stikine River,Beatty Aerial,1985,147,B.13
+Chinook,Stikine River,Beatty Aerial,1986,183,B.13
+Chinook,Stikine River,Beatty Aerial,1987,312,B.13
+Chinook,Stikine River,Beatty Aerial,1988,593,B.13
+Chinook,Stikine River,Beatty Aerial,1989,362,B.13
+Chinook,Stikine River,Beatty Aerial,1990,271,B.13
+Chinook,Stikine River,Beatty Aerial,1991,193,B.13
+Chinook,Stikine River,Beatty Aerial,1992,362,B.13
+Chinook,Stikine River,Beatty Aerial,1993,757,B.13
+Chinook,Stikine River,Beatty Aerial,1994,184,B.13
+Chinook,Stikine River,Beatty Aerial,1995,152,B.13
+Chinook,Stikine River,Beatty Aerial,1996,218,B.13
+Chinook,Stikine River,Beatty Aerial,1997,218,B.13
+Chinook,Stikine River,Beatty Aerial,1998,125,B.13
+Chinook,Stikine River,Beatty Aerial,2014,15,B.13
+Chinook,Stikine River,Beatty Aerial,2015,30,B.13
+Chinook,Stikine River,Beatty Aerial,2016,25,B.13
+Chinook,Stikine River,Beatty Aerial,2018,17,B.13
+Chinook,Stikine River,Beatty Aerial,2019,7,B.13
+Chinook,Stikine River,Beatty Aerial,2021,7,B.13
+Chinook,Stikine River,Beatty Aerial,2022,10,B.13
+Chinook,Stikine River,Beatty Aerial,2023,NA,B.13
+Chinook,Stikine River,Beatty Aerial,2024,29,B.13
+Chinook,Stikine River,Little Tahltan natural spawners,1985,"3,114",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1986,"2,891",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1987,"4,783",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1988,"7,292",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1989,"4,715",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1990,"4,392",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1991,"4,506",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1992,"6,615",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1993,"11,437",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1994,"6,373",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1995,"3,072",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1996,"4,821",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1997,"5,547",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1998,"4,873",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,1999,"4,733",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2000,"6,631",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2001,"9,730",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2002,"7,476",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2003,"6,492",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2004,"16,381",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2005,"7,387",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2006,"3,860",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2007,562,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2008,"2,663",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2009,"2,245",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2010,"1,057",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2011,"1,753",B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2012,720,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2013,878,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2014,169,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2015,450,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2016,921,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2017,492,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2018,453,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2019,536,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2020,347,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2021,987,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2022,677,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2023,363,B.34
+Chinook,Stikine River,Little Tahltan natural spawners,2024,382,B.34
+Chinook,Stikine River,Above Border Run,1996,"31,718",B.12
+Chinook,Stikine River,Above Border Run,1997,"31,509",B.12
+Chinook,Stikine River,Above Border Run,1998,"28,133",B.12
+Chinook,Stikine River,Above Border Run,1999,"23,716",B.12
+Chinook,Stikine River,Above Border Run,2000,"30,301",B.12
+Chinook,Stikine River,Above Border Run,2001,"66,646",B.12
+Chinook,Stikine River,Above Border Run,2002,"53,893",B.12
+Chinook,Stikine River,Above Border Run,2003,"49,881",B.12
+Chinook,Stikine River,Above Border Run,2004,"52,538",B.12
+Chinook,Stikine River,Above Border Run,2005,"59,885",B.12
+Chinook,Stikine River,Above Border Run,2006,"40,181",B.12
+Chinook,Stikine River,Above Border Run,2007,"25,069",B.12
+Chinook,Stikine River,Above Border Run,2008,"26,284",B.12
+Chinook,Stikine River,Above Border Run,2009,"15,118",B.12
+Chinook,Stikine River,Above Border Run,2010,"18,312",B.12
+Chinook,Stikine River,Above Border Run,2011,"17,652",B.12
+Chinook,Stikine River,Above Border Run,2012,"27,542",B.12
+Chinook,Stikine River,Above Border Run,2013,"20,154",B.12
+Chinook,Stikine River,Above Border Run,2014,"27,701",B.12
+Chinook,Stikine River,Above Border Run,2015,"25,855",B.12
+Chinook,Stikine River,Above Border Run,2016,"13,789",B.12
+Chinook,Stikine River,Above Border Run,2017,"7,938",B.12
+Chinook,Stikine River,Above Border Run,2018,"8,768",B.12
+Chinook,Stikine River,Above Border Run,2019,"14,150",B.12
+Chinook,Stikine River,Above Border Run,2020,"10,142",B.12
+Chinook,Stikine River,Above Border Run,2021,"8,558",B.12
+Chinook,Stikine River,Above Border Run,2022,"9,359",B.12
+Chinook,Stikine River,Above Border Run,2023,"12,864",B.12
+Chinook,Stikine River,Above Border Run,2024,"9,884",B.12
+Chinook,Stikine River,Canadian Harvest,1996,"2,931",B.12
+Chinook,Stikine River,Canadian Harvest,1997,"4,701",B.12
+Chinook,Stikine River,Canadian Harvest,1998,"2,354",B.12
+Chinook,Stikine River,Canadian Harvest,1999,"3,935",B.12
+Chinook,Stikine River,Canadian Harvest,2000,"4,245",B.12
+Chinook,Stikine River,Canadian Harvest,2001,"3,517",B.12
+Chinook,Stikine River,Canadian Harvest,2002,"3,438",B.12
+Chinook,Stikine River,Canadian Harvest,2003,"2,866",B.12
+Chinook,Stikine River,Canadian Harvest,2004,"4,048",B.12
+Chinook,Stikine River,Canadian Harvest,2005,"20,049",B.12
+Chinook,Stikine River,Canadian Harvest,2006,"15,776",B.12
+Chinook,Stikine River,Canadian Harvest,2007,"10,510",B.12
+Chinook,Stikine River,Canadian Harvest,2008,"7,932",B.12
+Chinook,Stikine River,Canadian Harvest,2009,"2,146",B.12
+Chinook,Stikine River,Canadian Harvest,2010,"3,164",B.12
+Chinook,Stikine River,Canadian Harvest,2011,"3,141",B.12
+Chinook,Stikine River,Canadian Harvest,2012,"5,210",B.12
+Chinook,Stikine River,Canadian Harvest,2013,"3,370",B.12
+Chinook,Stikine River,Canadian Harvest,2014,"3,327",B.12
+Chinook,Stikine River,Canadian Harvest,2015,"4,258",B.12
+Chinook,Stikine River,Canadian Harvest,2016,"3,235",B.12
+Chinook,Stikine River,Canadian Harvest,2017,603,B.12
+Chinook,Stikine River,Canadian Harvest,2018,165,B.12
+Chinook,Stikine River,Canadian Harvest,2019,333,B.12
+Chinook,Stikine River,Canadian Harvest,2020,389,B.12
+Chinook,Stikine River,Canadian Harvest,2021,182,B.12
+Chinook,Stikine River,Canadian Harvest,2022,269,B.12
+Chinook,Stikine River,Canadian Harvest,2023,69,B.12
+Chinook,Stikine River,Canadian Harvest,2024,49,B.12
+Chinook,Stikine River,Escapement,1996,"28,787",B.12
+Chinook,Stikine River,Escapement,1997,"26,808",B.12
+Chinook,Stikine River,Escapement,1998,"25,779",B.12
+Chinook,Stikine River,Escapement,1999,"19,781",B.12
+Chinook,Stikine River,Escapement,2000,"26,056",B.12
+Chinook,Stikine River,Escapement,2001,"63,129",B.12
+Chinook,Stikine River,Escapement,2002,"50,455",B.12
+Chinook,Stikine River,Escapement,2003,"47,015",B.12
+Chinook,Stikine River,Escapement,2004,"48,490",B.12
+Chinook,Stikine River,Escapement,2005,"39,836",B.12
+Chinook,Stikine River,Escapement,2006,"24,405",B.12
+Chinook,Stikine River,Escapement,2007,"14,559",B.12
+Chinook,Stikine River,Escapement,2008,"18,352",B.12
+Chinook,Stikine River,Escapement,2009,"12,972",B.12
+Chinook,Stikine River,Escapement,2010,"15,148",B.12
+Chinook,Stikine River,Escapement,2011,"14,511",B.12
+Chinook,Stikine River,Escapement,2012,"22,332",B.12
+Chinook,Stikine River,Escapement,2013,"16,784",B.12
+Chinook,Stikine River,Escapement,2014,"24,374",B.12
+Chinook,Stikine River,Escapement,2015,"21,597",B.12
+Chinook,Stikine River,Escapement,2016,"10,554",B.12
+Chinook,Stikine River,Escapement,2017,"7,335",B.12
+Chinook,Stikine River,Escapement,2018,"8,603",B.12
+Chinook,Stikine River,Escapement,2019,"13,817",B.12
+Chinook,Stikine River,Escapement,2020,"9,753",B.12
+Chinook,Stikine River,Escapement,2021,"8,376",B.12
+Chinook,Stikine River,Escapement,2022,"9,090",B.12
+Chinook,Stikine River,Escapement,2023,"12,795",B.12
+Chinook,Stikine River,Escapement,2024,"9,835",B.12
+Chinook,Stikine River,US Harvest,2002,"3,587",B.12
+Chinook,Stikine River,US Harvest,2003,"3,895",B.12
+Chinook,Stikine River,US Harvest,2004,"9,599",B.12
+Chinook,Stikine River,US Harvest,2005,"27,882",B.12
+Chinook,Stikine River,US Harvest,2006,"22,060",B.12
+Chinook,Stikine River,US Harvest,2007,"10,885",B.12
+Chinook,Stikine River,US Harvest,2008,"7,335",B.12
+Chinook,Stikine River,US Harvest,2009,"1,350",B.12
+Chinook,Stikine River,US Harvest,2010,"1,303",B.12
+Chinook,Stikine River,US Harvest,2011,"2,142",B.12
+Chinook,Stikine River,US Harvest,2012,"2,353",B.12
+Chinook,Stikine River,US Harvest,2013,"1,566",B.12
+Chinook,Stikine River,US Harvest,2014,"1,622",B.12
+Chinook,Stikine River,US Harvest,2015,"1,500",B.12
+Chinook,Stikine River,US Harvest,2016,"1,707",B.12
+Chinook,Stikine River,US Harvest,2017,207,B.12
+Chinook,Stikine River,US Harvest,2018,39,B.12
+Chinook,Stikine River,US Harvest,2019,133,B.12
+Chinook,Stikine River,US Harvest,2020,161,B.12
+Chinook,Stikine River,US Harvest,2021,123,B.12
+Chinook,Stikine River,US Harvest,2022,62,B.12
+Chinook,Stikine River,US Harvest,2023,71,B.12
+Chinook,Stikine River,US Harvest,2024,37,B.12
+Chinook,Stikine River,Terminal Run,2002,"57,480",B.12
+Chinook,Stikine River,Terminal Run,2003,"53,776",B.12
+Chinook,Stikine River,Terminal Run,2004,"62,137",B.12
+Chinook,Stikine River,Terminal Run,2005,"87,767",B.12
+Chinook,Stikine River,Terminal Run,2006,"62,241",B.12
+Chinook,Stikine River,Terminal Run,2007,"35,954",B.12
+Chinook,Stikine River,Terminal Run,2008,"33,619",B.12
+Chinook,Stikine River,Terminal Run,2009,"16,468",B.12
+Chinook,Stikine River,Terminal Run,2010,"19,615",B.12
+Chinook,Stikine River,Terminal Run,2011,"19,794",B.12
+Chinook,Stikine River,Terminal Run,2012,"29,895",B.12
+Chinook,Stikine River,Terminal Run,2013,"21,720",B.12
+Chinook,Stikine River,Terminal Run,2014,"29,323",B.12
+Chinook,Stikine River,Terminal Run,2015,"27,355",B.12
+Chinook,Stikine River,Terminal Run,2016,"15,496",B.12
+Chinook,Stikine River,Terminal Run,2017,"8,145",B.12
+Chinook,Stikine River,Terminal Run,2018,"8,807",B.12
+Chinook,Stikine River,Terminal Run,2019,"14,283",B.12
+Chinook,Stikine River,Terminal Run,2020,"10,303",B.12
+Chinook,Stikine River,Terminal Run,2021,"8,681",B.12
+Chinook,Stikine River,Terminal Run,2022,"9,421",B.12
+Chinook,Stikine River,Terminal Run,2023,"12,935",B.12
+Chinook,Stikine River,Terminal Run,2024,"9,921",B.12
