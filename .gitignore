@@ -56,3 +56,5 @@ data/1_raw-data/Yukon and Transboundary NuSEDS_20250730.csv
 
 # Ignore archived output datasets
 output/archive
+
+code/ignore
